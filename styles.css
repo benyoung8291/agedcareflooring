@@ -1911,6 +1911,8 @@ textarea:focus-visible {
     margin: 0;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    order: 3;
+    width: 100%;
   }
 
   .nav-menu.active {
@@ -1956,14 +1958,20 @@ textarea:focus-visible {
     font-size: 13px;
   }
 
+  .navbar-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .navbar-logo {
     order: 1;
-    margin-right: auto;
+    flex: 1 1 auto;
   }
 
   .nav-toggle {
     display: flex;
-    order: 10;
+    order: 2;
+    margin-left: auto;
   }
 
   .navbar-container > .btn {
