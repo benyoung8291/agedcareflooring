@@ -1958,6 +1958,7 @@ textarea:focus-visible {
 
   .nav-toggle {
     display: flex;
+    order: 10;
   }
 
   .navbar-contact {
