@@ -164,6 +164,101 @@
             color: #C76138;
         }
 
+        /* Brand Card Images */
+        .brand-card-image {
+            margin: 20px 0;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .brand-card-image img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            border-radius: 2px;
+        }
+
+        .brand-card-image-caption {
+            font-size: 13px;
+            color: #6B6B6B;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+
+        .brand-image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .brand-image-grid img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 2px;
+            border: 1px solid #E5E5E0;
+        }
+
+        /* Vinyl Gallery Section */
+        .vinyl-gallery {
+            padding: 80px 0;
+            background-color: #F8F8F7;
+        }
+
+        .vinyl-gallery h2 {
+            margin-bottom: 16px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .gallery-item {
+            border-radius: 2px;
+            overflow: hidden;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-item-caption {
+            padding: 16px 20px;
+            font-size: 14px;
+            color: #2C2D30;
+            line-height: 1.5;
+        }
+
+        .gallery-item-caption strong {
+            display: block;
+            margin-bottom: 4px;
+            color: #C76138;
+        }
+
+        @media (max-width: 768px) {
+            .brand-image-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .brand-card-image img {
+                height: 180px;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .contact-wrapper {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -197,7 +292,7 @@
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <span class="logo-text">Premrest</span>
+                <a href="index.html" class="logo-text">Premrest</a>
             </div>
             <div class="nav-toggle" id="navToggle">
                 <span></span>
@@ -206,12 +301,12 @@
             </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="carpet-tiles.html" class="nav-link">Carpet Tiles</a></li>
-                <li><a href="vinyl-flooring.html" class="nav-link">Vinyl Flooring</a></li>
+                <li><a href="vinyl-flooring.html" class="nav-link">Vinyl</a></li>
                 <li><a href="slip-resistance.html" class="nav-link">Slip Resistance</a></li>
-                <li><a href="dementia-friendly-flooring.html" class="nav-link">Dementia-Friendly</a></li>
-                <li><a href="blog/" class="nav-link">Blog</a></li>
+                <li><a href="dementia-friendly-flooring.html" class="nav-link">Dementia Design</a></li>
+                <li><a href="blog/" class="nav-link">Articles</a></li>
                 <li><a href="melbourne.html" class="nav-link">Locations</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <div class="navbar-contact">
                 <span class="phone">1300 207 915</span>
@@ -234,6 +329,51 @@
                 <a href="#why-vinyl" class="btn btn-secondary">Why Safety Vinyl?</a>
             </div>
             <p class="hero-trust">Melbourne · Sydney · Brisbane · Polyflor, Forbo, Armstrong, Karndean, Tarkett</p>
+        </div>
+    </section>
+
+    <!-- Vinyl Flooring Gallery -->
+    <section class="vinyl-gallery">
+        <div class="container">
+            <h2>Safety Vinyl in Aged Care Facilities</h2>
+            <p style="max-width: 680px; color: #6B6B6B; font-size: 16px;">Real installations from aged care facilities across Australia and internationally. Seamless vinyl flooring that delivers on safety, hygiene, and design.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="images/forbo-aged-care-dining.webp" alt="Forbo vinyl flooring installed in an aged care dining room, showing seamless hygienic surface ideal for meal areas" loading="lazy">
+                    <div class="gallery-item-caption">
+                        <strong>Forbo — Dining Area</strong>
+                        Seamless vinyl in an aged care dining room. Easy to clean after every meal with no grout lines trapping bacteria.
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/tarkett-aged-care-corridor.jpg" alt="Tarkett iQ vinyl flooring in an aged care corridor, showing durable slip-resistant surface for high-traffic hallways" loading="lazy">
+                    <div class="gallery-item-caption">
+                        <strong>Tarkett — Corridor</strong>
+                        High-traffic corridor flooring with consistent slip resistance. Designed for constant wheelchair and walker traffic.
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/forbo-resident-room.webp" alt="Forbo safety vinyl flooring in a residential care bedroom, showing warm tones and seamless installation" loading="lazy">
+                    <div class="gallery-item-caption">
+                        <strong>Forbo — Resident Bedroom</strong>
+                        Warm tones create a residential feel while delivering safety vinyl performance underneath.
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/armstrong-patient-room.jpg" alt="Armstrong Medintone vinyl flooring in a patient room, showing durable clinical-grade surface with clean aesthetic" loading="lazy">
+                    <div class="gallery-item-caption">
+                        <strong>Armstrong — Patient Room</strong>
+                        Medintone homogeneous vinyl engineered for clinical spaces. Chemical-resistant, easy to heat-weld for seamless infection control.
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/karndean-hospital-lobby.jpg" alt="Karndean Korlok luxury vinyl in a hospital lobby showing modern stone-effect design with commercial durability" loading="lazy">
+                    <div class="gallery-item-caption">
+                        <strong>Karndean — Hospital Lobby</strong>
+                        Luxury vinyl tile that looks like natural stone but delivers slip resistance and easy maintenance aged care requires.
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -291,6 +431,10 @@
                     <p>
                         The reference standard for UK hospital and aged care flooring. Polysafe homogeneous vinyl (Hydro Evolve, Standard PUR) handles high traffic without movement, maintains slip resistance over a decade, and sits at the heart of infection control design. Expona LVT ranges let you match design aesthetics without sacrificing performance. Thousands of Australian aged care facilities already depend on it.
                     </p>
+                    <div class="brand-image-grid">
+                        <img src="images/polyflor-polysafe-hospital-corridor.jpg" alt="Polyflor Polysafe Verona vinyl flooring installed in a hospital corridor, showing seamless safety surface for high-traffic healthcare areas" loading="lazy">
+                        <img src="images/polyflor-expona-hospital-waiting.jpg" alt="Polyflor Expona Flow luxury vinyl tiles in a hospital waiting area, showing warm wood-effect design with safety performance" loading="lazy">
+                    </div>
                 </div>
 
                 <div class="brand-card fade-in">
@@ -298,6 +442,10 @@
                     <p>
                         They make flooring that works. Sphera homogeneous vinyl engineered for healthcare, Surestep safety vinyl with genuine slip-resistance credentials, and Marmoleum natural linoleum for spaces where you want something different. They understand aged care specifications and support local installers with proper documentation.
                     </p>
+                    <div class="brand-image-grid">
+                        <img src="images/forbo-corridor.webp" alt="Forbo safety vinyl flooring in an aged care corridor showing seamless installation for high-traffic areas" loading="lazy">
+                        <img src="images/forbo-aged-care-living.webp" alt="Forbo vinyl flooring in an aged care living area with warm residential tones" loading="lazy">
+                    </div>
                 </div>
 
                 <div class="brand-card fade-in">
@@ -305,6 +453,10 @@
                     <p>
                         Medintone was built for clinical spaces — bathrooms, treatment rooms, medication stations. Chemical resistance matters. Easy cleaning matters. Durability matters. Armstrong delivers on all three without fuss or excessive pattern variation that dates a floor in five years.
                     </p>
+                    <div class="brand-card-image">
+                        <img src="images/armstrong-medintone-healthcare-room.jpg" alt="Armstrong Medintone homogeneous vinyl flooring in a healthcare room setting, showing clean clinical surface with seamless installation" loading="lazy">
+                        <p class="brand-card-image-caption">Medintone — Sea Salt &amp; Aegean Blue combination in a healthcare setting</p>
+                    </div>
                 </div>
 
                 <div class="brand-card fade-in">
@@ -312,6 +464,10 @@
                     <p>
                         When you want common areas to feel residential instead of institutional, luxury vinyl tile gives you wood and stone aesthetics with safety vinyl performance underneath. Individual tile replacement means you can fix wear spots without renovating entire corridors. Residents appreciate the warmer feel.
                     </p>
+                    <div class="brand-image-grid">
+                        <img src="images/karndean-healthcare-hallway.jpg" alt="Karndean Vermont luxury vinyl tile in a healthcare hallway, showing warm wood-effect design that creates residential feel in clinical environments" loading="lazy">
+                        <img src="images/karndean-healthcare-patient-room.jpg" alt="Karndean Opus luxury vinyl tile in a patient room, showing stone-effect design with safety performance for aged care bedrooms" loading="lazy">
+                    </div>
                 </div>
 
                 <div class="brand-card fade-in">
@@ -319,6 +475,10 @@
                     <p>
                         Global healthcare specialist. iQ and Acczent ranges were designed for aged care from the ground up. Proven in thousands of European facilities. Strong slip-resistance, excellent technical support, and compliance documentation that passes accreditation audits without argument.
                     </p>
+                    <div class="brand-image-grid">
+                        <img src="images/tarkett-aged-care-bedroom.jpg" alt="Tarkett vinyl flooring in an aged care bedroom showing warm residential aesthetics with safety performance" loading="lazy">
+                        <img src="images/tarkett-healthcare-reception.jpg" alt="Tarkett healthcare vinyl flooring in a reception area showing durable commercial-grade surface" loading="lazy">
+                    </div>
                 </div>
             </div>
         </div>
@@ -581,7 +741,7 @@
 
             <div class="footer-bottom">
                 <p>&copy; 2026 Premier Restorations Group Pty Ltd trading as Premrest | ABN 27 634 747 952 | All rights reserved</p>
-                <a href="/privacy-policy.html" class="footer-link">Privacy Policy</a>
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
             </div>
         </div>
     </footer>

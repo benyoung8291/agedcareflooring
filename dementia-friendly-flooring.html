@@ -14,7 +14,7 @@
     <title>Dementia-Friendly Flooring for Aged Care | Design Guidelines</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script type="application/ln+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -41,7 +41,7 @@
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <span class="logo-text">Premrest</span>
+                <a href="index.html" class="logo-text">Premrest</a>
             </div>
             <div class="nav-toggle" id="navToggle">
                 <span></span>
@@ -49,10 +49,11 @@
                 <span></span>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html#why-aged-care" class="nav-link">Why Aged Care Flooring</a></li>
                 <li><a href="carpet-tiles.html" class="nav-link">Carpet Tiles</a></li>
                 <li><a href="vinyl-flooring.html" class="nav-link">Vinyl</a></li>
                 <li><a href="slip-resistance.html" class="nav-link">Slip Resistance</a></li>
+                <li><a href="dementia-friendly-flooring.html" class="nav-link">Dementia Design</a></li>
+                <li><a href="blog/" class="nav-link">Articles</a></li>
                 <li><a href="melbourne.html" class="nav-link">Locations</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
@@ -75,6 +76,22 @@
             <div class="hero-ctas">
                 <a href="contact.html" class="btn btn-primary">Let's Discuss Your Facility</a>
                 <a href="#key-principles" class="btn btn-secondary">Core Principles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Example -->
+    <section class="dementia-visual-example">
+        <div class="container">
+            <div class="visual-grid">
+                <div class="visual-item">
+                    <img src="images/interface-warners-bay-bedroom.jpg" alt="Interface carpet tiles in warm neutral tones installed in an aged care bedroom at Arcare, demonstrating dementia-friendly colour choices that create a calm, home-like atmosphere" loading="lazy">
+                    <p class="visual-caption"><strong>Warm tones in bedrooms</strong> — Interface carpet tiles in calm neutrals create safe, familiar private spaces for residents with dementia</p>
+                </div>
+                <div class="visual-item">
+                    <img src="images/interface-greenway-senior-living.jpg" alt="Interface carpet tiles in a senior living common area with clear colour transitions and simple patterns that support wayfinding for residents with dementia" loading="lazy">
+                    <p class="visual-caption"><strong>Clear wayfinding in shared spaces</strong> — contrasting colour zones help residents navigate independently without visual confusion</p>
+                </div>
             </div>
         </div>
     </section>
@@ -195,6 +212,12 @@
 
                 <div class="material-subsection">
                     <h3>Carpet Tiles for Dementia Spaces</h3>
+                    <div class="material-images">
+                        <img src="images/interface-hn810-limestone.jpg" alt="Interface Human Nature HN810 carpet tile in Limestone — warm neutral tone ideal for dementia-friendly aged care bedrooms" loading="lazy">
+                        <img src="images/interface-hn850-nickel.jpg" alt="Interface Human Nature HN850 carpet tile in Nickel — subtle texture with matte finish for dementia care environments" loading="lazy">
+                        <img src="images/interface-ur102-flax.jpg" alt="Interface Urban Retreat UR102 carpet tile in Flax — warm, calm colour for aged care private spaces" loading="lazy">
+                    </div>
+                    <p class="material-images-caption">Interface Human Nature and Urban Retreat — warm neutrals with matte finishes, purpose-built for dementia-friendly aged care environments</p>
                     <p>
                         Bedrooms need warm, soft surfaces. That's where carpet tiles excel. They dampen sound (hard floors echo, which agitates residents), provide underfoot comfort, and reduce injury severity when falls happen. And they will happen.
                     </p>
@@ -439,7 +462,7 @@
 
             <div class="footer-bottom">
                 <p>&copy; 2026 Premier Restorations Group Pty Ltd trading as Premrest | ABN 27 634 747 952 | All rights reserved</p>
-                <a href="/privacy-policy.html" class="footer-link">Privacy Policy</a>
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
             </div>
         </div>
     </footer>
@@ -709,6 +732,64 @@
             color: #FFB580;
         }
 
+        /* Dementia Visual Example Section */
+        .dementia-visual-example {
+            padding: 60px 0;
+            background-color: #FFFFFF;
+        }
+
+        .visual-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .visual-item {
+            overflow: hidden;
+            border-radius: 2px;
+        }
+
+        .visual-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+            border-radius: 2px;
+        }
+
+        .visual-caption {
+            font-size: 14px;
+            color: #6B6B6B;
+            line-height: 1.6;
+            margin-top: 12px;
+        }
+
+        .visual-caption strong {
+            color: #2C2D30;
+        }
+
+        /* Material Images */
+        .material-images {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .material-images img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 2px;
+            border: 1px solid #E5E5E0;
+        }
+
+        .material-images-caption {
+            font-size: 13px;
+            color: #6B6B6B;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
         @media (max-width: 768px) {
             .article-container {
                 padding: 0 20px;
@@ -736,6 +817,19 @@
 
             .check-list li {
                 font-size: 13px;
+            }
+
+            .visual-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .visual-item img {
+                height: 220px;
+            }
+
+            .material-images img {
+                width: 100px;
+                height: 100px;
             }
         }
     </style>
