@@ -49,7 +49,7 @@
     }
     </script>
 </head>
-<body>
+<body class="page-carpet-tiles">
     <!-- Navigation -->
     <nav class="navbar">
         <div class="navbar-container">
@@ -395,7 +395,7 @@
             <div class="contact-wrapper">
                 <div class="contact-form-area">
                     <h2>Let's Talk About Your Flooring</h2>
-                    <form id="contactForm" class="contact-form" action="#" method="POST">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xjgjbbjn" method="POST">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required>
@@ -468,8 +468,8 @@
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>About Premrest</h4>
-                    <p>We supply and install flooring for aged care facilities — carpet tiles, vinyl, slip resistance testing. We understand the constraints: safety, compliance, durability, resident comfort. We work within them, not around them.</p>
-                    <p class="footer-division">A division of Premier Restorations Group Pty Ltd<br>ABN 27 634 747 952</p>
+                    <p>We're a specialist commercial flooring contractor focused on environments where compliance, safety, and design all have to work together. Aged care, healthcare, retail, strata, education &mdash; the places where getting the floor wrong has real consequences.</p>
+                    <p class="footer-division">A division of Premier Restorations Group Pty Ltd</p>
                 </div>
 
                 <div class="footer-column">
@@ -477,8 +477,9 @@
                     <ul>
                         <li><a href="carpet-tiles.html">Carpet Tiles</a></li>
                         <li><a href="vinyl-flooring.html">Vinyl Flooring</a></li>
-                        <li><a href="slip-resistance.html">Slip Resistance Testing</a></li>
-                        <li><a href="dementia-friendly-flooring.html">Dementia-Friendly Flooring</a></li>
+                        <li><a href="slip-resistance.html">Slip Testing</a></li>
+                        <li><a href="dementia-friendly-flooring.html">Dementia Design</a></li>
+                        <li><a href="blog/">Articles</a></li>
                     </ul>
                 </div>
 
@@ -486,27 +487,28 @@
                     <h4>Locations</h4>
                     <ul>
                         <li><a href="melbourne.html">Melbourne</a></li>
-                        <li><a href="melbourne.html">Sydney</a></li>
-                        <li><a href="melbourne.html">Brisbane</a></li>
+                        <li><a href="sydney.html">Sydney</a></li>
+                        <li><a href="brisbane.html">Brisbane</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
-                    <h4>Get in Touch</h4>
+                    <h4>Contact</h4>
                     <p><a href="tel:1300207915">1300 207 915</a></p>
                     <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
-                    <p><a href="https://premrest.com.au">premrest.com.au</a></p>
+                    <p><a href="https://www.premrest.com.au" target="_blank">premrest.com.au</a></p>
                 </div>
             </div>
 
             <div class="footer-divider"></div>
 
             <div class="footer-services">
-                <h4>Related Services</h4>
+                <h4>Our Specialist Services</h4>
                 <div class="services-links">
+                    <a href="https://www.premrest.com.au" target="_blank">Premrest</a>
                     <a href="https://modularcarpet.com.au" target="_blank">Modular Carpet</a>
                     <a href="https://vinyltiles.com.au" target="_blank">Vinyl Tiles</a>
-                    <a href="https://localcarpetcleaning.com.au" target="_blank">Local Carpet Cleaning</a>
+                    <a href="https://localcarpetcleaning.com.au" target="_blank">Carpet Cleaning</a>
                     <a href="https://floodrest.com.au" target="_blank">Flood Restoration</a>
                     <a href="https://comcorkflooring.com.au" target="_blank">Commercial Cork</a>
                     <a href="https://medicalflooring.com.au" target="_blank">Medical Flooring</a>
@@ -518,853 +520,12 @@
             <div class="footer-divider"></div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Premier Restorations Group Pty Ltd (trading as Premrest) | ABN 27 634 747 952 | All rights reserved</p>
+                <p>&copy; 2026 Premier Restorations Group Pty Ltd trading as Premrest | ABN 27 634 747 952 | All rights reserved</p>
                 <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
             </div>
         </div>
     </footer>
 
-    <style>
-        /* Additional styles for carpet-tiles page */
-
-        .highlight {
-            color: #C76138;
-        }
-
-        .hero-ctas {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-            margin-top: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .hero-trust {
-            font-size: 13px;
-            color: #6B6B6B;
-            margin-top: 2rem;
-        }
-
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background-color: #F8F8F7;
-            transition: all 0.3s ease;
-            box-shadow: none;
-        }
-
-        .navbar.scrolled {
-            background-color: white;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        }
-
-        .navbar-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 16px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-        }
-
-        .navbar-logo {
-            flex-shrink: 0;
-        }
-
-        .logo-text {
-            font-family: 'Outfit', sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            color: #2C2D30;
-            letter-spacing: -0.5px;
-        }
-
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-            flex: 1;
-            margin: 0 40px;
-        }
-
-        .nav-link {
-            font-size: 14px;
-            font-weight: 500;
-            color: #2C2D30;
-            text-decoration: none;
-            transition: color 0.2s ease;
-            position: relative;
-        }
-
-        .nav-link:hover {
-            color: #C76138;
-        }
-
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: #C76138;
-            transition: width 0.2s ease;
-        }
-
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        .navbar-contact {
-            display: flex;
-            align-items: center;
-        }
-
-        .phone {
-            font-size: 14px;
-            font-weight: 600;
-            color: #2C2D30;
-            margin-right: 20px;
-        }
-
-        .nav-toggle {
-            display: none;
-            flex-direction: column;
-            gap: 6px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 8px;
-        }
-
-        .nav-toggle span {
-            width: 24px;
-            height: 2px;
-            background-color: #2C2D30;
-            transition: all 0.3s ease;
-        }
-
-        .nav-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translate(8px, 8px);
-        }
-
-        .nav-toggle.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .nav-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(7px, -7px);
-        }
-
-        /* Installation Gallery */
-        .installation-gallery {
-            padding: 80px 0;
-            background-color: #FFFFFF;
-        }
-
-        .gallery-intro {
-            font-size: 1.05rem;
-            color: #5A5A5A;
-            max-width: 640px;
-            margin-bottom: 2.5rem;
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto auto;
-            gap: 20px;
-        }
-
-        .gallery-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 2px;
-            background-color: #F0F0ED;
-        }
-
-        .gallery-item-large {
-            grid-row: 1 / 3;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.4s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.03);
-        }
-
-        .gallery-caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 20px;
-            background: linear-gradient(transparent, rgba(0,0,0,0.7));
-            color: white;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-
-        .gallery-caption strong {
-            font-size: 15px;
-            font-weight: 600;
-        }
-
-        .gallery-caption span {
-            font-size: 13px;
-            opacity: 0.85;
-        }
-
-        /* Product Range Images */
-        .product-range {
-            margin-bottom: 24px;
-            padding: 20px;
-            background-color: #F8F8F7;
-            border-radius: 2px;
-        }
-
-        .range-images {
-            display: flex;
-            gap: 12px;
-            margin-bottom: 12px;
-        }
-
-        .range-images img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 2px;
-            border: 1px solid #E5E5E0;
-        }
-
-        .range-description {
-            font-size: 15px;
-            color: #6B6B6B;
-            line-height: 1.6;
-        }
-
-        .range-description strong {
-            color: #2C2D30;
-        }
-
-        .range-scene {
-            margin: 24px 0;
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        .range-scene img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .range-scene-caption {
-            font-size: 13px;
-            color: #6B6B6B;
-            margin-top: 8px;
-            line-height: 1.5;
-        }
-
-        /* Application Images */
-        .application-image {
-            margin-bottom: 16px;
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        .application-image img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.3s ease;
-        }
-
-        .application-item:hover .application-image img {
-            transform: scale(1.03);
-        }
-
-        .benefit-card {
-            background-color: #FFFFFF;
-            padding: 32px;
-            text-align: center;
-            border-radius: 2px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-            transition: all 0.2s ease;
-        }
-
-        .benefit-card:hover {
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-            transform: translateY(-2px);
-        }
-
-        .benefit-icon {
-            font-size: 48px;
-            margin-bottom: 16px;
-        }
-
-        .benefit-card h3 {
-            margin-bottom: 12px;
-            color: #2C2D30;
-        }
-
-        .benefit-card p {
-            font-size: 15px;
-            color: #6B6B6B;
-            line-height: 1.7;
-            margin: 0;
-        }
-
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
-            margin-top: 2rem;
-        }
-
-        .brand-card {
-            background-color: #FFFFFF;
-            padding: 32px;
-            border-radius: 2px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-
-        .brand-card h3 {
-            color: #2C2D30;
-            font-size: 28px;
-            margin-bottom: 8px;
-        }
-
-        .brand-subtitle {
-            color: #C76138;
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 16px;
-        }
-
-        .brand-card p {
-            font-size: 15px;
-            color: #6B6B6B;
-            margin-bottom: 16px;
-        }
-
-        .brand-card h4 {
-            font-size: 16px;
-            color: #2C2D30;
-            margin-top: 20px;
-            margin-bottom: 12px;
-        }
-
-        .brand-features {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 16px;
-        }
-
-        .brand-features li {
-            margin-bottom: 12px;
-            font-size: 15px;
-            color: #6B6B6B;
-            line-height: 1.6;
-        }
-
-        .brand-features strong {
-            color: #2C2D30;
-        }
-
-        .brands-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 32px;
-            margin-top: 2rem;
-        }
-
-        .application-item {
-            background-color: #FFFFFF;
-            padding: 32px;
-            border-radius: 2px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-
-        .application-item h3 {
-            color: #2C2D30;
-            margin-bottom: 12px;
-        }
-
-        .application-item p {
-            font-size: 15px;
-            color: #6B6B6B;
-            margin: 0;
-            line-height: 1.7;
-        }
-
-        .applications-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 24px;
-            margin-top: 2rem;
-        }
-
-        .table-wrapper {
-            overflow-x: auto;
-            margin-top: 2rem;
-        }
-
-        .specs-table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: white;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-
-        .specs-table th {
-            background-color: #2C2D30;
-            color: white;
-            padding: 16px;
-            text-align: left;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .specs-table td {
-            padding: 16px;
-            border-bottom: 1px solid #E5E5E0;
-            font-size: 14px;
-            color: #2C2D30;
-        }
-
-        .specs-table tbody tr:hover {
-            background-color: #F8F8F7;
-        }
-
-        .specs-table th:first-child,
-        .specs-table td:first-child {
-            width: 25%;
-        }
-
-        .specs-intro {
-            font-size: 15px;
-            color: #6B6B6B;
-            margin-bottom: 2rem;
-        }
-
-        .crosslinks-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 32px;
-            margin-top: 2rem;
-        }
-
-        .crosslink-card {
-            background-color: #FFF0E8;
-            padding: 32px;
-            border-radius: 2px;
-        }
-
-        .crosslink-card h3 {
-            color: #2C2D30;
-            margin-bottom: 12px;
-        }
-
-        .crosslink-card p {
-            font-size: 15px;
-            color: #6B6B6B;
-            margin-bottom: 20px;
-            line-height: 1.7;
-        }
-
-        .contact-wrapper {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: start;
-        }
-
-        .contact-form-area h2 {
-            margin-bottom: 2rem;
-        }
-
-        .contact-form {
-            background-color: white;
-            padding: 0;
-        }
-
-        .contact-form-area {
-            padding: 0;
-        }
-
-        .contact-info {
-            padding: 32px;
-            background-color: white;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-
-        .contact-info h3 {
-            margin-bottom: 2rem;
-        }
-
-        .contact-details {
-            margin-bottom: 2rem;
-        }
-
-        .contact-detail {
-            margin-bottom: 20px;
-        }
-
-        .contact-detail strong {
-            font-size: 14px;
-            font-weight: 600;
-            color: #2C2D30;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .contact-detail p {
-            margin: 8px 0 0 0;
-            font-size: 15px;
-        }
-
-        .contact-detail a {
-            color: #C76138;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-
-        .contact-detail a:hover {
-            color: #B5552E;
-        }
-
-        .contact-note {
-            padding-top: 20px;
-            border-top: 1px solid #E5E5E0;
-            margin-top: 20px;
-        }
-
-        .contact-note p {
-            font-size: 14px;
-            color: #6B6B6B;
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        .form-note {
-            font-size: 13px;
-            color: #6B6B6B;
-            margin-top: 12px;
-        }
-
-        .footer {
-            background-color: #2C2D30;
-            color: white;
-            padding: 60px 0 0;
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 60px 20px 40px;
-        }
-
-        .footer-column h4 {
-            color: white;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
-
-        .footer-column p {
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.75);
-            line-height: 1.6;
-            margin-bottom: 12px;
-        }
-
-        .footer-column ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .footer-column li {
-            margin-bottom: 12px;
-        }
-
-        .footer-column a {
-            color: rgba(255, 255, 255, 0.75);
-            font-size: 14px;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-
-        .footer-column a:hover {
-            color: #FFA566;
-        }
-
-        .footer-division {
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.5);
-            margin-top: 16px;
-        }
-
-        .footer-divider {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .footer-services {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        .footer-services h4 {
-            color: white;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
-
-        .services-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .services-links a {
-            color: rgba(255, 255, 255, 0.75);
-            font-size: 14px;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-
-        .services-links a:hover {
-            color: #FFA566;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            text-align: center;
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.65);
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .footer-link {
-            color: rgba(255, 255, 255, 0.75);
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-
-        .footer-link:hover {
-            color: #FFA566;
-        }
-
-        .fade-in {
-            opacity: 0;
-            animation: fadeIn 0.6s ease forwards;
-        }
-
-        .fade-in:nth-child(1) { animation-delay: 0s; }
-        .fade-in:nth-child(2) { animation-delay: 0.1s; }
-        .fade-in:nth-child(3) { animation-delay: 0.2s; }
-        .fade-in:nth-child(4) { animation-delay: 0.3s; }
-        .fade-in:nth-child(5) { animation-delay: 0.4s; }
-        .fade-in.visible { opacity: 1; }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .benefits-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .brands-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .applications-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .crosslinks-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-wrapper {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .footer-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-item-large {
-                grid-row: auto;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: white;
-                flex-direction: column;
-                gap: 0;
-                margin: 0;
-                padding: 20px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            }
-
-            .nav-menu.active {
-                display: flex;
-            }
-
-            .nav-link {
-                padding: 12px 0;
-                display: block;
-                border-bottom: 1px solid #F0F0ED;
-            }
-
-            .nav-link::after {
-                display: none;
-            }
-
-            .nav-toggle {
-                display: flex;
-            }
-
-            .navbar-contact {
-                display: none;
-            }
-
-            .benefits-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-ctas {
-                flex-direction: column;
-            }
-
-            .hero-ctas .btn {
-                width: 100%;
-            }
-
-            .applications-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .range-images img {
-                width: 100px;
-                height: 100px;
-            }
-
-            .gallery-grid {
-                grid-template-columns: 1fr;
-                gap: 16px;
-            }
-
-            .gallery-item-large {
-                grid-row: auto;
-            }
-
-            .application-image img {
-                height: 180px;
-            }
-
-            .table-wrapper {
-                overflow-x: auto;
-            }
-
-            .specs-table {
-                font-size: 13px;
-            }
-
-            .specs-table td,
-            .specs-table th {
-                padding: 12px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .navbar-container {
-                padding: 12px 16px;
-                gap: 12px;
-            }
-
-            .logo-text {
-                font-size: 20px;
-            }
-
-            .btn {
-                padding: 12px 24px;
-                font-size: 13px;
-                width: 100%;
-            }
-
-            .benefit-card {
-                padding: 24px;
-            }
-
-            .brand-card {
-                padding: 24px;
-            }
-
-            .application-item {
-                padding: 24px;
-            }
-
-            .contact-info {
-                padding: 24px;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: 32px;
-                padding: 40px 16px;
-            }
-
-            .services-links {
-                flex-direction: column;
-                gap: 12px;
-            }
-
-            .services-links a {
-                display: block;
-            }
-        }
-    </style>
 
     <script>
         // Mobile Navigation Toggle
@@ -1430,9 +591,6 @@
         // Form Validation
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Basic validation
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
@@ -1440,21 +598,17 @@
             const message = document.getElementById('message').value.trim();
 
             if (!name || !email || !phone || !enquiryType || !message) {
+                e.preventDefault();
                 alert('Please fill in all required fields.');
                 return;
             }
 
-            // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
+                e.preventDefault();
                 alert('Please enter a valid email address.');
                 return;
             }
-
-            // If validation passes, form would normally submit here
-            // For now, show success message (actual submission to be implemented with Formspree)
-            alert('Thank you for your enquiry. We will respond within one business day.');
-            contactForm.reset();
         });
     </script>
 </body>

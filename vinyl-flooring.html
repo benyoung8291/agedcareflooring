@@ -14,280 +14,8 @@
     <title>Vinyl Flooring for Aged Care | Polyflor, Forbo, Tarkett | Supply & Install</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Vinyl Flooring Page - Custom Styles */
-        .vinyl-gradient {
-            background: linear-gradient(135deg, #FFD6B3 0%, #FFC49F 100%);
-        }
-
-        .benefit-number {
-            font-size: 48px;
-            font-weight: 700;
-            color: #C76138;
-            margin-bottom: 12px;
-        }
-
-        .brand-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 32px;
-            margin-top: 40px;
-        }
-
-        .brand-card {
-            background-color: #FFFFFF;
-            padding: 40px;
-            border-radius: 2px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-            transition: all 0.2s ease;
-        }
-
-        .brand-card:hover {
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-            transform: translateY(-2px);
-        }
-
-        .brand-card h3 {
-            color: #C76138;
-            margin-bottom: 16px;
-            font-size: 24px;
-        }
-
-        .brand-card p {
-            font-size: 15px;
-            line-height: 1.7;
-            color: #2C2D30;
-        }
-
-        .applications-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 28px;
-            margin-top: 40px;
-        }
-
-        .application-card {
-            background-color: #FFF0E8;
-            padding: 36px;
-            border-radius: 2px;
-            transition: all 0.2s ease;
-        }
-
-        .application-card:hover {
-            background-color: #FFE5D9;
-        }
-
-        .application-card h4 {
-            color: #2C2D30;
-            margin-bottom: 12px;
-            font-size: 18px;
-        }
-
-        .application-card p {
-            font-size: 14px;
-            line-height: 1.6;
-            color: #2C2D30;
-            margin: 0;
-        }
-
-        .installation-section {
-            background-color: #FFFFFF;
-            padding: 48px;
-            border-left: 4px solid #C76138;
-            margin-top: 32px;
-        }
-
-        .installation-section h3 {
-            margin-bottom: 20px;
-        }
-
-        .installation-section ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .installation-section li {
-            padding-left: 24px;
-            margin-bottom: 16px;
-            position: relative;
-            font-size: 15px;
-            line-height: 1.7;
-        }
-
-        .installation-section li:before {
-            content: "▸";
-            position: absolute;
-            left: 0;
-            color: #C76138;
-            font-size: 18px;
-        }
-
-        .spec-list {
-            background-color: #F8F8F7;
-            padding: 24px 32px;
-            border-radius: 2px;
-            margin-top: 24px;
-        }
-
-        .spec-list ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .spec-list li {
-            padding-left: 24px;
-            margin-bottom: 12px;
-            position: relative;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-
-        .spec-list li:last-child {
-            margin-bottom: 0;
-        }
-
-        .spec-list li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #C76138;
-            font-weight: bold;
-        }
-
-        .highlight {
-            color: #C76138;
-            font-weight: 600;
-        }
-
-        .hero-title .highlight {
-            color: #C76138;
-        }
-
-        /* Brand Card Images */
-        .brand-card-image {
-            margin: 20px 0;
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        .brand-card-image img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            display: block;
-            border-radius: 2px;
-        }
-
-        .brand-card-image-caption {
-            font-size: 13px;
-            color: #6B6B6B;
-            margin-top: 8px;
-            line-height: 1.5;
-        }
-
-        .brand-image-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin: 20px 0;
-        }
-
-        .brand-image-grid img {
-            width: 100%;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 2px;
-            border: 1px solid #E5E5E0;
-        }
-
-        /* Vinyl Gallery Section */
-        .vinyl-gallery {
-            padding: 80px 0;
-            background-color: #F8F8F7;
-        }
-
-        .vinyl-gallery h2 {
-            margin-bottom: 16px;
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-            margin-top: 40px;
-        }
-
-        .gallery-item {
-            border-radius: 2px;
-            overflow: hidden;
-            background: #FFFFFF;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            display: block;
-        }
-
-        .gallery-item-caption {
-            padding: 16px 20px;
-            font-size: 14px;
-            color: #2C2D30;
-            line-height: 1.5;
-        }
-
-        .gallery-item-caption strong {
-            display: block;
-            margin-bottom: 4px;
-            color: #C76138;
-        }
-
-        @media (max-width: 768px) {
-            .brand-image-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .brand-card-image img {
-                height: 180px;
-            }
-
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .contact-wrapper {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: start;
-        }
-
-        .contact-form-area h2 {
-            margin-bottom: 32px;
-        }
-
-        @media (max-width: 768px) {
-            .contact-wrapper {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .brand-grid,
-            .applications-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .installation-section {
-                padding: 32px;
-            }
-        }
-    </style>
 </head>
-<body>
+<body class="page-vinyl">
     <!-- Navigation -->
     <nav class="navbar">
         <div class="navbar-container">
@@ -614,7 +342,7 @@
             <div class="contact-wrapper">
                 <div class="contact-form-area">
                     <h2>Let's Talk About Your Flooring</h2>
-                    <form id="contactForm" class="contact-form" action="#" method="POST">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xjgjbbjn" method="POST">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required>
@@ -690,17 +418,18 @@
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>About Premrest</h4>
-                    <p>We specify and install safety flooring for aged care facilities. Slip-resistant, infection-control, dementia-friendly solutions across Melbourne, Sydney, and Brisbane. Flooring that does what it's supposed to do.</p>
-                    <p class="footer-division">Part of Premier Restorations Group Pty Ltd</p>
+                    <p>We're a specialist commercial flooring contractor focused on environments where compliance, safety, and design all have to work together. Aged care, healthcare, retail, strata, education &mdash; the places where getting the floor wrong has real consequences.</p>
+                    <p class="footer-division">A division of Premier Restorations Group Pty Ltd</p>
                 </div>
 
                 <div class="footer-column">
-                    <h4>Flooring Solutions</h4>
+                    <h4>Services</h4>
                     <ul>
                         <li><a href="carpet-tiles.html">Carpet Tiles</a></li>
                         <li><a href="vinyl-flooring.html">Vinyl Flooring</a></li>
                         <li><a href="slip-resistance.html">Slip Testing</a></li>
-                        <li><a href="dementia-friendly-flooring.html">Dementia-Friendly Design</a></li>
+                        <li><a href="dementia-friendly-flooring.html">Dementia Design</a></li>
+                        <li><a href="blog/">Articles</a></li>
                     </ul>
                 </div>
 
@@ -714,18 +443,19 @@
                 </div>
 
                 <div class="footer-column">
-                    <h4>Get in Touch</h4>
+                    <h4>Contact</h4>
                     <p><a href="tel:1300207915">1300 207 915</a></p>
                     <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
-                    <p><a href="https://premrest.com.au" target="_blank">premrest.com.au</a></p>
+                    <p><a href="https://www.premrest.com.au" target="_blank">premrest.com.au</a></p>
                 </div>
             </div>
 
             <div class="footer-divider"></div>
 
             <div class="footer-services">
-                <h4>Related Services by Premier Restorations</h4>
+                <h4>Our Specialist Services</h4>
                 <div class="services-links">
+                    <a href="https://www.premrest.com.au" target="_blank">Premrest</a>
                     <a href="https://modularcarpet.com.au" target="_blank">Modular Carpet</a>
                     <a href="https://vinyltiles.com.au" target="_blank">Vinyl Tiles</a>
                     <a href="https://localcarpetcleaning.com.au" target="_blank">Carpet Cleaning</a>
@@ -810,9 +540,6 @@
         // Form Validation
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Basic validation
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
@@ -820,21 +547,17 @@
             const message = document.getElementById('message').value.trim();
 
             if (!name || !email || !phone || !enquiryType || !message) {
+                e.preventDefault();
                 alert('Please fill in all required fields.');
                 return;
             }
 
-            // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
+                e.preventDefault();
                 alert('Please enter a valid email address.');
                 return;
             }
-
-            // If validation passes, form would normally submit here
-            // For now, show success message (actual submission to be implemented with Formspree)
-            alert('Thank you for your enquiry. We will respond within one business day.');
-            contactForm.reset();
         });
     </script>
 </body>
