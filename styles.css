@@ -1956,9 +1956,18 @@ textarea:focus-visible {
     font-size: 13px;
   }
 
+  .navbar-logo {
+    order: 1;
+    margin-right: auto;
+  }
+
   .nav-toggle {
     display: flex;
     order: 10;
+  }
+
+  .navbar-container > .btn {
+    display: none;
   }
 
   .navbar-contact {
