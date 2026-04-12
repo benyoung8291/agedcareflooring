@@ -54,7 +54,14 @@
                 <li><a href="slip-resistance.html" class="nav-link">Slip Resistance</a></li>
                 <li><a href="dementia-friendly-flooring.html" class="nav-link">Dementia Design</a></li>
                 <li><a href="blog/" class="nav-link">Articles</a></li>
-                <li><a href="melbourne.html" class="nav-link">Locations</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Locations</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="melbourne.html">Melbourne</a></li>
+                        <li><a href="sydney.html">Sydney</a></li>
+                        <li><a href="brisbane.html">Brisbane</a></li>
+                    </ul>
+                </li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <div class="navbar-contact">
@@ -77,36 +84,36 @@
                 <a href="contact.html" class="btn btn-primary">Request a Quote</a>
                 <a href="#melbourne-service-areas" class="btn btn-secondary">Service Areas</a>
             </div>
-            <p class="hero-trust">Local Melbourne Base · Warehouse & Installation Teams · Victoria-Wide Service</p>
+            <p class="hero-trust">Local Melbourne Team · Warehouse & Installation Crews · Victoria-Wide Service</p>
         </div>
     </section>
 
-    <!-- Melbourne Base Section -->
+    <!-- Melbourne Operation Section -->
     <section class="location-base-section">
         <div class="container">
-            <h2>Our Melbourne Base</h2>
+            <h2>Our Melbourne Operation</h2>
             <div class="base-content">
                 <div class="base-text">
                     <p>
-                        Premrest is headquartered in Melbourne with a dedicated warehouse and local installation teams. We're not an interstate franchise — we actually know Victoria's aged care landscape. The facilities, the regulators, the stubborn carpet tile that won't stay down. We understand the specific operational headaches of running aged care facilities across Melbourne.
+                        Premrest operates a dedicated Melbourne team with local warehouse facilities and experienced installation crews. We're embedded in the Victorian aged care market — we know the facilities, the regulatory environment, and the specific challenges of running aged care across Greater Melbourne. The stubborn carpet tile that won't stay down, the accreditation auditor who wants documentation yesterday — we've seen it all.
                     </p>
                     <p>
-                        That local knowledge translates to real advantages: faster response times, warehouse stock you can access, and installation teams that don't need a map to find your facility. We've worked on projects across Melbourne's inner suburbs, eastern corridor, western industrial areas, and the Mornington Peninsula. We know how different suburbs present different challenges, and we plan accordingly.
+                        Our local presence translates to real advantages: faster response times, warehouse stock you can access, and installation teams who understand the geography and logistics of working across a city this size. We've worked on projects across Melbourne's inner suburbs, eastern corridor, western industrial areas, and the Mornington Peninsula. We know how different suburbs present different challenges, and we plan accordingly.
                     </p>
                     <p>
-                        We stock Interface, Shaw Contract, Polyflor, and Forbo products locally. That means your project doesn't languish waiting for interstate deliveries. After-hours installations? We can mobilise around your facility's schedule, not the other way around.
+                        We stock Interface, Shaw Contract, Polyflor, and Forbo products locally. That means your project doesn't stall waiting for deliveries. After-hours installations? We coordinate around your facility's schedule — residents come first.
                     </p>
                 </div>
                 <div class="base-features">
                     <div class="feature-box">
                         <div class="feature-icon">W</div>
                         <h4>Local Warehouse</h4>
-                        <p>Stock on hand for rapid delivery and emergency projects</p>
+                        <p>Melbourne stock on hand for rapid delivery and emergency projects</p>
                     </div>
                     <div class="feature-box">
                         <div class="feature-icon">T</div>
                         <h4>Installation Teams</h4>
-                        <p>Experienced teams based locally, ready to mobilise</p>
+                        <p>Experienced local crews ready to mobilise across Victoria</p>
                     </div>
                     <div class="feature-box">
                         <div class="feature-icon">R</div>
@@ -313,6 +320,16 @@
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
+        });
+
+        // Mobile Dropdown Toggle
+        document.querySelectorAll(".nav-dropdown > .nav-link").forEach(function(link) {
+            link.addEventListener("click", function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle("open");
+                }
+            });
         });
 
         // Close mobile nav on link click
