@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agedcareflooring.com.au/sitemap.xml
