@@ -1966,7 +1966,757 @@ textarea:focus-visible {
 }
 
 /* ========================================
-   20. PRINT STYLES
+   20. CONTACT PAGE STYLES
+   ======================================== */
+
+.page-contact .contact-info {
+  background-color: #FFF0E8;
+  padding: 40px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.page-contact .contact-form {
+  max-width: none;
+}
+
+.what-happens-next {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(199, 97, 56, 0.2);
+}
+
+.what-happens-next h4 {
+  margin-bottom: 1.5rem;
+}
+
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.process-step {
+  display: flex;
+  gap: 16px;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #C76138;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.step-content h5 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+}
+
+.step-content p {
+  margin: 0;
+  font-size: 13px;
+  color: #6B6B6B;
+}
+
+.page-contact .contact-note {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(199, 97, 56, 0.08);
+  border-left: 3px solid #C76138;
+  border-top: none;
+}
+
+.faq-section {
+  background-color: #F8F8F7;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.faq-item h3 {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.faq-item p {
+  font-size: 15px;
+  color: #6B6B6B;
+  line-height: 1.7;
+}
+
+/* ========================================
+   21. VINYL FLOORING PAGE STYLES
+   ======================================== */
+
+.vinyl-gradient {
+  background: linear-gradient(135deg, #FFD6B3 0%, #FFC49F 100%);
+}
+
+.page-vinyl .benefit-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #C76138;
+  margin-bottom: 12px;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.page-vinyl .brand-card {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.page-vinyl .brand-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.page-vinyl .brand-card h3 {
+  color: #C76138;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.page-vinyl .brand-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #2C2D30;
+}
+
+.page-vinyl .applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.application-card {
+  background-color: #FFF0E8;
+  padding: 36px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.application-card:hover {
+  background-color: #FFE5D9;
+}
+
+.application-card h4 {
+  color: #2C2D30;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.application-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #2C2D30;
+  margin: 0;
+}
+
+.installation-section {
+  background-color: #FFFFFF;
+  padding: 48px;
+  border-left: 4px solid #C76138;
+  margin-top: 32px;
+}
+
+.installation-section h3 {
+  margin-bottom: 20px;
+}
+
+.installation-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.installation-section li {
+  padding-left: 24px;
+  margin-bottom: 16px;
+  position: relative;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.installation-section li:before {
+  content: "\25B8";
+  position: absolute;
+  left: 0;
+  color: #C76138;
+  font-size: 18px;
+}
+
+.spec-list {
+  background-color: #F8F8F7;
+  padding: 24px 32px;
+  border-radius: 2px;
+  margin-top: 24px;
+}
+
+.spec-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spec-list li {
+  padding-left: 24px;
+  margin-bottom: 12px;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.spec-list li:last-child {
+  margin-bottom: 0;
+}
+
+.spec-list li:before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #C76138;
+  font-weight: bold;
+}
+
+.brand-card-image {
+  margin: 20px 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.brand-card-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.brand-card-image-caption {
+  font-size: 13px;
+  color: #6B6B6B;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.brand-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.brand-image-grid img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid #E5E5E0;
+}
+
+.vinyl-gallery {
+  padding: 80px 0;
+  background-color: #F8F8F7;
+}
+
+.vinyl-gallery h2 {
+  margin-bottom: 16px;
+}
+
+.page-vinyl .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.page-vinyl .gallery-item {
+  border-radius: 2px;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.page-vinyl .gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item-caption {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #2C2D30;
+  line-height: 1.5;
+}
+
+.gallery-item-caption strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #C76138;
+}
+
+/* ========================================
+   22. CARPET TILES PAGE STYLES
+   ======================================== */
+
+.installation-gallery {
+  padding: 80px 0;
+  background-color: #FFFFFF;
+}
+
+.gallery-intro {
+  font-size: 1.05rem;
+  color: #5A5A5A;
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+}
+
+.page-carpet-tiles .gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.page-carpet-tiles .gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: #F0F0ED;
+}
+
+.gallery-item-large {
+  grid-row: 1 / 3;
+}
+
+.page-carpet-tiles .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.page-carpet-tiles .gallery-item:hover img {
+  transform: scale(1.03);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gallery-caption strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.gallery-caption span {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.product-range {
+  margin-bottom: 24px;
+  padding: 20px;
+  background-color: #F8F8F7;
+  border-radius: 2px;
+}
+
+.range-images {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.range-images img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid #E5E5E0;
+}
+
+.range-description {
+  font-size: 15px;
+  color: #6B6B6B;
+  line-height: 1.6;
+}
+
+.range-description strong {
+  color: #2C2D30;
+}
+
+.range-scene {
+  margin: 24px 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.range-scene img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.range-scene-caption {
+  font-size: 13px;
+  color: #6B6B6B;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.application-image {
+  margin-bottom: 16px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.application-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.application-item:hover .application-image img {
+  transform: scale(1.03);
+}
+
+.benefit-card {
+  background-color: #FFFFFF;
+  padding: 32px;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.benefit-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.benefit-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.benefit-card h3 {
+  margin-bottom: 12px;
+  color: #2C2D30;
+}
+
+.benefit-card p {
+  font-size: 15px;
+  color: #6B6B6B;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.page-carpet-tiles .benefits-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.page-carpet-tiles .brand-card {
+  background-color: #FFFFFF;
+  padding: 32px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.page-carpet-tiles .brand-card h3 {
+  color: #2C2D30;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.brand-subtitle {
+  color: #C76138;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.page-carpet-tiles .brand-card p {
+  font-size: 15px;
+  color: #6B6B6B;
+  margin-bottom: 16px;
+}
+
+.page-carpet-tiles .brand-card h4 {
+  font-size: 16px;
+  color: #2C2D30;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.brand-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.brand-features li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #6B6B6B;
+  line-height: 1.6;
+}
+
+.brand-features strong {
+  color: #2C2D30;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 2rem;
+}
+
+.application-item {
+  background-color: #FFFFFF;
+  padding: 32px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.application-item h3 {
+  color: #2C2D30;
+  margin-bottom: 12px;
+}
+
+.application-item p {
+  font-size: 15px;
+  color: #6B6B6B;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.page-carpet-tiles .applications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 2rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.specs-table th {
+  background-color: #2C2D30;
+  color: white;
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.specs-table td {
+  padding: 16px;
+  border-bottom: 1px solid #E5E5E0;
+  font-size: 14px;
+  color: #2C2D30;
+}
+
+.specs-table tbody tr:hover {
+  background-color: #F8F8F7;
+}
+
+.specs-table th:first-child,
+.specs-table td:first-child {
+  width: 25%;
+}
+
+.specs-intro {
+  font-size: 15px;
+  color: #6B6B6B;
+  margin-bottom: 2rem;
+}
+
+.crosslinks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 2rem;
+}
+
+.crosslink-card {
+  background-color: #FFF0E8;
+  padding: 32px;
+  border-radius: 2px;
+}
+
+.crosslink-card h3 {
+  color: #2C2D30;
+  margin-bottom: 12px;
+}
+
+.crosslink-card p {
+  font-size: 15px;
+  color: #6B6B6B;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* ========================================
+   23. PRIVACY POLICY PAGE STYLES
+   ======================================== */
+
+.privacy-hero {
+  padding: 100px 0 60px;
+}
+
+.privacy-content {
+  padding: 60px 0;
+  background-color: #FFFFFF;
+}
+
+.privacy-content .container {
+  max-width: 800px;
+}
+
+.privacy-content ul {
+  margin-bottom: 1.5rem;
+  padding-left: 24px;
+}
+
+.privacy-content li {
+  margin-bottom: 8px;
+}
+
+/* ========================================
+   24. PAGE-SPECIFIC RESPONSIVE OVERRIDES
+   ======================================== */
+
+@media (max-width: 1024px) {
+  .page-carpet-tiles .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brands-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .crosslinks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-carpet-tiles .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item-large {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-contact .contact-info {
+    padding: 32px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .brand-image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-card-image img {
+    height: 180px;
+  }
+
+  .page-vinyl .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-vinyl .brand-grid,
+  .page-vinyl .applications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .installation-section {
+    padding: 32px;
+  }
+
+  .page-carpet-tiles .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-carpet-tiles .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-carpet-tiles .applications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .range-images img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .application-image img {
+    height: 180px;
+  }
+
+  .specs-table {
+    font-size: 13px;
+  }
+
+  .specs-table td,
+  .specs-table th {
+    padding: 12px;
+  }
+}
+
+/* ========================================
+   25. PRINT STYLES
    ======================================== */
 
 @media print {

@@ -285,7 +285,7 @@
                 <div class="contact-form-area">
                     <h2>Tell Us What's Going On With Your Floor</h2>
                     <p class="contact-lead">Whether it's a new build, a replacement project, or a floor that's failing slip tests &mdash; start here. No obligation, no pressure, just a conversation about what you actually need.</p>
-                    <form id="contactForm" class="contact-form" action="#" method="POST">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xjgjbbjn" method="POST">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -472,7 +472,6 @@
         // Form Validation
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
@@ -480,18 +479,17 @@
             const message = document.getElementById('message').value.trim();
 
             if (!name || !email || !phone || !enquiryType || !message) {
+                e.preventDefault();
                 alert('Please fill in all required fields.');
                 return;
             }
 
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
+                e.preventDefault();
                 alert('Please enter a valid email address.');
                 return;
             }
-
-            alert('Thank you for your enquiry. We will respond within one business day.');
-            contactForm.reset();
         });
     </script>
 </body>
