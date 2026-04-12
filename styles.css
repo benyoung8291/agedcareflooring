@@ -1801,6 +1801,39 @@ textarea:focus-visible {
   margin-top: 12px;
 }
 
+.form-thankyou {
+  text-align: center;
+  padding: 60px 32px;
+  background-color: white;
+}
+
+.form-thankyou h2 {
+  color: #2C2D30;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.form-thankyou p {
+  color: #6B6B6B;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 12px 0;
+}
+
+.form-thankyou .thankyou-phone {
+  margin-top: 24px;
+  font-size: 15px;
+}
+
+.form-thankyou .thankyou-phone a {
+  color: #C76138;
+  font-weight: 600;
+}
+
+.form-thankyou .thankyou-phone a:hover {
+  color: #B5552E;
+}
+
 /* Footer shared styles */
 .footer {
   background-color: #2C2D30;

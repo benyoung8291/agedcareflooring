@@ -99,7 +99,7 @@
                 Let's Talk About Your <span class="highlight">Flooring</span>
             </h1>
             <p class="hero-subtitle">
-                Contact Premrest. Tell us what you're dealing with — a slip risk, an audit requirement, a dementia-friendly redesign, a timing problem — and we'll give you a straight answer about what we can do.
+                Contact Premrest. Tell us what you're dealing with: a slip risk, an audit requirement, a dementia-friendly redesign, a timing problem. We'll give you a straight answer about what we can do.
             </p>
             <div class="hero-ctas">
                 <a href="#contact-form" class="btn btn-primary">Request a Quote</a>
@@ -193,7 +193,7 @@
                                 <div class="step-number">1</div>
                                 <div class="step-content">
                                     <h5>You Tell Us What You're Facing</h5>
-                                    <p>Fill out the form, give us a call, whatever works. Tell us the real situation — the facility type, the problem you're solving, timing constraints.</p>
+                                    <p>Fill out the form, give us a call, whatever works. Tell us the real situation: the facility type, the problem you're solving, timing constraints.</p>
                                 </div>
                             </div>
                             <div class="process-step">
@@ -214,7 +214,7 @@
                     </div>
 
                     <div class="contact-note">
-                        <p>We're not going to oversell or waste your time. We work with aged care facilities because we understand the real constraints — you can't shut down for a week of installation, you need documented compliance, and you need flooring that actually works for your residents and staff.</p>
+                        <p>We're not going to oversell or waste your time. We work with aged care facilities because we understand the real constraints: you can't shut down for a week of installation, you need documented compliance, and you need flooring that actually works for your residents and staff.</p>
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
             <div class="faq-grid">
                 <div class="faq-item">
                     <h3>Do you service regional Victoria?</h3>
-                    <p>We're based in Melbourne, so inner and outer suburbs are our bread and butter. For regional Victoria — Bendigo, Ballarat, Geelong and beyond — we can do it, but we need projects that justify the drive. Call and tell us where you are. If it makes sense, we'll do it.</p>
+                    <p>We're based in Melbourne, so inner and outer suburbs are our bread and butter. For regional Victoria (Bendigo, Ballarat, Geelong and beyond) we can do it, but we need projects that justify the drive. Call and tell us where you are. If it makes sense, we'll do it.</p>
                 </div>
                 <div class="faq-item">
                     <h3>What about Sydney or Brisbane?</h3>
@@ -236,11 +236,11 @@
                 </div>
                 <div class="faq-item">
                     <h3>How long does a typical installation take?</h3>
-                    <p>Depends on the scope. A bedroom refurb? Few days. A whole facility? Weeks, usually staged around your schedule. That's why we do after-hours work — you're still running the facility while we're installing. We'll give you a realistic timeline when we visit.</p>
+                    <p>Depends on the scope. A bedroom refurb? Few days. A whole facility? Weeks, usually staged around your schedule. That's why we do after-hours work. You're still running the facility while we're installing. We'll give you a realistic timeline when we visit.</p>
                 </div>
                 <div class="faq-item">
                     <h3>What if there's asbestos in the existing floor?</h3>
-                    <p>We don't remove asbestos — that's a licensed remediation job. But once it's removed and cleared, we install your new flooring. We can coordinate with the removal contractor to keep things moving.</p>
+                    <p>We don't remove asbestos. That's a licensed remediation job. But once it's removed and cleared, we install your new flooring. We can coordinate with the removal contractor to keep things moving.</p>
                 </div>
             </div>
         </div>
@@ -252,7 +252,7 @@
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>About Premrest</h4>
-                    <p>We're a specialist commercial flooring contractor focused on environments where compliance, safety, and design all have to work together. Aged care, healthcare, retail, strata, education &mdash; the places where getting the floor wrong has real consequences.</p>
+                    <p>We're a specialist commercial flooring contractor focused on environments where compliance, safety, and design all have to work together. Aged care, healthcare, retail, strata, education: the places where getting the floor wrong has real consequences.</p>
                     <p class="footer-division">A division of Premier Restorations Group Pty Ltd</p>
                 </div>
 
@@ -374,9 +374,11 @@
             });
         });
 
-        // Form Validation
+        // Form Submission
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
@@ -387,17 +389,42 @@
             const message = document.getElementById('message').value.trim();
 
             if (!name || !email || !phone || !facility || !location || !enquiryType || !area || !message) {
-                e.preventDefault();
                 alert('Please fill in all required fields.');
                 return;
             }
 
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
-                e.preventDefault();
                 alert('Please enter a valid email address.');
                 return;
             }
+
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+
+            fetch(contactForm.action, {
+                method: 'POST',
+                body: new FormData(contactForm),
+                headers: { 'Accept': 'application/json' }
+            }).then(function(response) {
+                if (response.ok) {
+                    document.querySelector('.contact-form-area').innerHTML =
+                        '<div class="form-thankyou">' +
+                        '<h2>Thank You</h2>' +
+                        '<p>Your enquiry has been received. We\'ll be in touch within one business day.</p>' +
+                        '<p class="thankyou-phone">Or call us now on <a href="tel:1300207915">1300 207 915</a></p>' +
+                        '</div>';
+                } else {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Enquiry';
+                    alert('Something went wrong. Please try again or call us on 1300 207 915.');
+                }
+            }).catch(function() {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Enquiry';
+                alert('Something went wrong. Please try again or call us on 1300 207 915.');
+            });
         });
     </script>
 
