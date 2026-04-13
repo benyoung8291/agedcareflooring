@@ -181,7 +181,7 @@ a:hover {
 /* Form Elements */
 input[type="text"],
 input[type="email"],
-input[type="phone"],
+input[type="tel"],
 input[type="date"],
 textarea,
 select {
@@ -198,7 +198,7 @@ select {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="phone"]:focus,
+input[type="tel"]:focus,
 input[type="date"]:focus,
 textarea:focus,
 select:focus {
@@ -289,7 +289,7 @@ section {
 }
 
 section.hero {
-  padding: 120px 20px;
+  padding: 120px 40px;
 }
 
 section.compact {
@@ -412,13 +412,14 @@ header.scrolled .logo {
 
 .hero {
   background-color: #F8F8F7;
-  padding: 140px 20px 100px;
+  padding: 140px 40px 100px;
   position: relative;
   overflow: hidden;
 }
 
 .hero-content {
-  max-width: 700px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero h1 {
@@ -430,7 +431,7 @@ header.scrolled .logo {
   font-size: 18px;
   color: #6B6B6B;
   margin-bottom: 2rem;
-  max-width: 680px;
+  max-width: 700px;
 }
 
 .hero-cta {
@@ -714,10 +715,19 @@ footer {
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 20px;
+  padding: 24px 0;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-bottom p {
+  max-width: none;
+  margin: 0 auto 8px;
+}
+
+.footer-bottom .footer-link {
+  display: inline-block;
 }
 
 .footer-links {
@@ -1193,7 +1203,7 @@ picture {
 
   input[type="text"],
   input[type="email"],
-  input[type="phone"],
+  input[type="tel"],
   textarea,
   select {
     padding: 10px 12px;
@@ -1337,11 +1347,10 @@ textarea:focus-visible {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px 20px;
+  padding: 12px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
 }
 
 .navbar-logo {
@@ -1364,37 +1373,31 @@ textarea:focus-visible {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 8px;
   flex: 1;
-  margin: 0 40px;
+  justify-content: center;
+  margin: 0 24px;
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #2C2D30;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
   position: relative;
+  padding: 6px 12px;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
   color: #C76138;
+  background-color: rgba(199, 97, 56, 0.06);
 }
 
 .nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #C76138;
-  transition: width 0.2s ease;
-}
-
-.nav-link:hover::after {
-  width: 100%;
+  display: none;
 }
 
 /* Locations Dropdown */
@@ -1443,13 +1446,20 @@ textarea:focus-visible {
 .navbar-contact {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .phone {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: #2C2D30;
-  margin-right: 20px;
+  margin-right: 16px;
+}
+
+.navbar-container > .btn {
+  flex-shrink: 0;
+  padding: 10px 24px;
+  font-size: 12px;
 }
 
 .nav-toggle {
@@ -1494,7 +1504,7 @@ textarea:focus-visible {
   font-size: 18px;
   color: #6B6B6B;
   margin-bottom: 2rem;
-  max-width: 680px;
+  max-width: 700px;
   line-height: 1.7;
 }
 
@@ -1793,6 +1803,7 @@ textarea:focus-visible {
   color: #6B6B6B;
   line-height: 1.6;
   margin: 0;
+  max-width: none;
 }
 
 .form-note {
@@ -1843,11 +1854,9 @@ textarea:focus-visible {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 20px 40px;
+  padding: 20px 0 40px;
 }
 
 .footer-column p {
@@ -1855,6 +1864,7 @@ textarea:focus-visible {
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
   margin-bottom: 12px;
+  max-width: none;
 }
 
 .footer-division {
@@ -1865,15 +1875,10 @@ textarea:focus-visible {
 
 .footer-divider {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 .footer-services {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 
 .footer-services h4 {
@@ -1957,6 +1962,12 @@ textarea:focus-visible {
     padding: 12px 0;
     display: block;
     border-bottom: 1px solid #F0F0ED;
+    border-radius: 0;
+    font-size: 14px;
+  }
+
+  .nav-link:hover {
+    background-color: transparent;
   }
 
   .nav-link::after {
@@ -2053,7 +2064,7 @@ textarea:focus-visible {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 32px;
-    padding: 40px 16px;
+    padding: 20px 0;
   }
 
   .services-links {
