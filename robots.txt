@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Major search engine crawlers explicitly allowed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
 Sitemap: https://agedcareflooring.com.au/sitemap.xml
