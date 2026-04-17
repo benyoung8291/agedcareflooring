@@ -474,53 +474,6 @@ header.scrolled .logo {
 }
 
 /* ========================================
-   7. TRUST BAR / STATS
-   ======================================== */
-
-.trust-bar {
-  background-color: #FFFFFF;
-  padding: 40px 0;
-  border-top: 1px solid #E5E5E0;
-  border-bottom: 1px solid #E5E5E0;
-}
-
-.trust-stats {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.stat {
-  flex: 1;
-  text-align: center;
-  padding: 0 20px;
-  border-right: 1px solid #D0CFC9;
-}
-
-.stat:last-child {
-  border-right: none;
-}
-
-.stat-number {
-  font-family: 'Outfit', sans-serif;
-  font-size: 28px;
-  font-weight: 600;
-  color: #C76138;
-  margin-bottom: 8px;
-}
-
-.stat-label {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #2C2D30;
-}
-
-/* ========================================
    8. CARDS & COMPONENTS
    ======================================== */
 
@@ -1116,21 +1069,6 @@ picture {
     grid-template-columns: 1fr;
   }
 
-  .trust-stats {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .stat {
-    padding: 0;
-    border-right: none;
-    border-bottom: 1px solid #D0CFC9;
-  }
-
-  .stat:last-child {
-    border-bottom: none;
-  }
-
   .footer-content {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -1231,9 +1169,6 @@ picture {
     font-size: 16px;
   }
 
-  .stat-number {
-    font-size: 24px;
-  }
 }
 
 /* ========================================
@@ -1718,33 +1653,6 @@ textarea:focus-visible {
   color: #C76138;
 }
 
-/* Trust bar polish */
-.trust-bar {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FDFBF8 100%);
-  padding: 40px 0;
-  border-top: 1px solid #EFEAE2;
-  border-bottom: 1px solid #EFEAE2;
-}
-
-.trust-bar .stat {
-  border-right: 1px solid #EAE5DC;
-}
-
-.trust-bar .stat-number {
-  font-size: clamp(28px, 3vw, 40px);
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  background: linear-gradient(135deg, #C76138 0%, #E8804D 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 6px;
-}
-
-.trust-bar .stat-label {
-  font-size: 12px;
-}
-
 /* Solution cards richer */
 .solution-card {
   border-radius: 14px;
@@ -1870,28 +1778,12 @@ textarea:focus-visible {
   .hero-floating-card--bottom { bottom: 12px; right: 12px; }
 }
 
-@media (max-width: 720px) {
-  .trust-stats {
-    flex-wrap: wrap;
-    gap: 8px 0;
-  }
-  .trust-bar .stat {
-    flex: 1 1 50%;
-    padding: 14px 10px;
-    border-right: none;
-    border-bottom: 1px solid #EAE5DC;
-  }
-  .trust-bar .stat:nth-last-child(-n+2) { border-bottom: none; }
-  .trust-bar .stat:nth-child(odd) { border-right: 1px solid #EAE5DC; }
-}
-
 @media (max-width: 560px) {
   .hero { padding-left: 20px; padding-right: 20px; }
   .hero-floating-card { padding: 10px 14px; min-width: 140px; }
   .floating-stat-number { font-size: 22px; }
   .hero-ctas .btn { width: 100%; }
   .hero-visual { min-height: 300px; }
-  .trust-bar .stat-number { font-size: 24px; }
 }
 
 /* Problem section */
