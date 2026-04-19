@@ -1,0 +1,33 @@
+# Apache / LiteSpeed configuration for agent-friendly responses.
+# Handles RFC 8288 Link headers and Accept-based markdown negotiation
+# on any shared host that reads .htaccess (no Cloudflare required).
+
+# Serve .md files as text/markdown.
+AddType text/markdown .md
+
+<IfModule mod_headers.c>
+    # RFC 8288 Link headers on the homepage. Agents can discover the
+    # sitemap, markdown alternate, contact page, privacy policy, and
+    # robots.txt without parsing HTML.
+    <If "%{REQUEST_URI} =~ m#^/(index\.html)?$#">
+        Header set Link "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </index.md>; rel=\"alternate\"; type=\"text/markdown\"; title=\"Markdown version for agents\", </contact.html>; rel=\"author\"; title=\"Contact Premrest Aged Care Flooring\", </privacy-policy.html>; rel=\"privacy-policy\", </robots.txt>; rel=\"describedby\"; type=\"text/plain\""
+        Header append Vary "Accept"
+    </If>
+
+    # Mark markdown responses so agents see the intended Content-Type
+    # even if the origin short-circuits the AddType above.
+    <FilesMatch "\.md$">
+        Header set Content-Type "text/markdown; charset=utf-8"
+        Header append Vary "Accept"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Markdown for Agents: when a client asks for text/markdown, rewrite
+    # requests for the homepage to index.md. Browsers sending the normal
+    # text/html Accept list fall through to index.html as usual.
+    RewriteCond %{HTTP_ACCEPT} (^|,)\s*text/markdown(\s*;|\s*,|\s*$) [NC]
+    RewriteRule ^(index\.html)?$ /index.md [L]
+</IfModule>
