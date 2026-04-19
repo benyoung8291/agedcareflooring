@@ -1,0 +1,27 @@
+# Agent discovery Link headers (RFC 8288)
+# https://www.rfc-editor.org/rfc/rfc8288
+/
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown version for agents"
+  Link: </contact.html>; rel="author"; title="Contact Premrest Aged Care Flooring"
+  Link: </privacy-policy.html>; rel="privacy-policy"
+  Link: </robots.txt>; rel="describedby"; type="text/plain"
+  Vary: Accept
+
+/index.html
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown version for agents"
+  Link: </contact.html>; rel="author"; title="Contact Premrest Aged Care Flooring"
+  Link: </privacy-policy.html>; rel="privacy-policy"
+  Link: </robots.txt>; rel="describedby"; type="text/plain"
+  Vary: Accept
+
+/*.html
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </privacy-policy.html>; rel="privacy-policy"
+  Vary: Accept
+
+# Ensure markdown alternate is served with the correct content type
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+  Vary: Accept
