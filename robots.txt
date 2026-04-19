@@ -1,4 +1,12 @@
+# Content signals declare how this site's content may be used by automated
+# clients and AI systems (https://contentsignals.org/).
+# search   : appearing in a traditional search index.
+# ai-input : being retrieved as grounding context for an AI assistant's answer.
+# ai-train : being used to train generative AI models.
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Major search engine crawlers explicitly allowed
