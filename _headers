@@ -3,6 +3,8 @@
 /
   Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
   Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown version for agents"
+  Link: </llms.txt>; rel="alternate"; type="text/plain"; title="LLMs.txt index for AI agents"
+  Link: </llms-full.txt>; rel="alternate"; type="text/plain"; title="Full-site Markdown context for AI agents"
   Link: </contact.html>; rel="author"; title="Contact Premrest Aged Care Flooring"
   Link: </privacy-policy.html>; rel="privacy-policy"
   Link: </robots.txt>; rel="describedby"; type="text/plain"
@@ -11,6 +13,8 @@
 /index.html
   Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
   Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown version for agents"
+  Link: </llms.txt>; rel="alternate"; type="text/plain"; title="LLMs.txt index for AI agents"
+  Link: </llms-full.txt>; rel="alternate"; type="text/plain"; title="Full-site Markdown context for AI agents"
   Link: </contact.html>; rel="author"; title="Contact Premrest Aged Care Flooring"
   Link: </privacy-policy.html>; rel="privacy-policy"
   Link: </robots.txt>; rel="describedby"; type="text/plain"
@@ -18,10 +22,21 @@
 
 /*.html
   Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </llms.txt>; rel="alternate"; type="text/plain"; title="LLMs.txt index for AI agents"
+  Link: </llms-full.txt>; rel="alternate"; type="text/plain"; title="Full-site Markdown context for AI agents"
   Link: </privacy-policy.html>; rel="privacy-policy"
   Vary: Accept
 
 # Ensure markdown alternate is served with the correct content type
 /*.md
   Content-Type: text/markdown; charset=utf-8
+  Vary: Accept
+
+# Serve llms.txt and llms-full.txt as plain text/markdown for agents
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Vary: Accept
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
   Vary: Accept

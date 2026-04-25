@@ -1,0 +1,57 @@
+# Aged Care Flooring Australia (Premrest)
+
+> Premrest is Australia's specialist aged care flooring contractor. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant vinyl and carpet tiles for nursing homes and retirement villages across Melbourne, Sydney, and Brisbane — without shutting facilities down or relocating residents.
+
+This file is a concise index for language models. Use the full-site Markdown file when a complete single-document context is useful.
+
+Phone: 1300 207 915
+Email: office@premrest.com.au
+Service areas: Melbourne, Sydney, Brisbane, and regional Australia.
+
+## Required
+
+- [Full site Markdown](https://agedcareflooring.com.au/llms-full.txt): Expanded Markdown context covering every public page on the site.
+
+## Core Pages
+
+- [Aged Care Flooring Australia](https://agedcareflooring.com.au/): Home page. Specialist aged care flooring that passes every slip test, dementia audit, and infection-control check. Supply and install across Melbourne, Sydney, and Brisbane.
+- [Carpet Tiles for Aged Care](https://agedcareflooring.com.au/carpet-tiles.html): Interface and Shaw Contract carpet tiles purpose-built for aged care environments. Noise-dampening, dementia-friendly palettes, tile-level replacement.
+- [Safety Vinyl Flooring for Aged Care](https://agedcareflooring.com.au/vinyl-flooring.html): Polyflor, Forbo, Armstrong, Karndean, and Tarkett healthcare safety vinyl for wet areas, dining rooms, and clinical spaces. Seamless, AS 4586 slip-rated.
+- [Slip Resistance Testing & Compliance](https://agedcareflooring.com.au/slip-resistance.html): AS 4586:2013 classification, AS 4663:2013 in-situ pendulum testing, P-ratings explained, and rectification of failing floors.
+- [Dementia-Friendly Flooring Design](https://agedcareflooring.com.au/dementia-friendly-flooring.html): Wayfinding, colour contrast, pattern selection, and HB 198:2014 design principles for dementia care environments.
+- [Articles & Insights (Blog)](https://agedcareflooring.com.au/blog/): Practical guides for facility managers covering compliance, safety, design, and installation logistics.
+- [Contact Premrest](https://agedcareflooring.com.au/contact.html): Get a free site assessment. Phone 1300 207 915 or email office@premrest.com.au.
+
+## Service Locations
+
+- [Aged Care Flooring Melbourne](https://agedcareflooring.com.au/melbourne.html): Local Melbourne installation team servicing nursing homes and retirement villages across Victoria.
+- [Aged Care Flooring Sydney](https://agedcareflooring.com.au/sydney.html): Local Sydney installation team servicing aged care facilities across New South Wales.
+- [Aged Care Flooring Brisbane](https://agedcareflooring.com.au/brisbane.html): Local Brisbane installation team servicing aged care facilities across South-East Queensland.
+
+## Articles
+
+- [Why Aged Care Floors Develop That Smell (And How to Stop It)](https://agedcareflooring.com.au/blog/aged-care-floor-odour-incontinence.html): Where urine odour hides in nursing home floors, why daily mopping makes it worse, and the flooring specification that fixes it for good.
+- [Why Your Floor Cleaner Is Making Your Floor Dangerous](https://agedcareflooring.com.au/blog/cleaning-chemicals-slip-resistance.html): How common cleaning products affect slip ratings over time, what AS 4586 and AS 4663 actually measure, and which chemicals preserve compliance.
+- [Carpet Tiles vs Vinyl in Aged Care: Where to Use What](https://agedcareflooring.com.au/blog/carpet-tiles-vs-vinyl-aged-care.html): Practical breakdown of which areas suit carpet tiles and which need safety vinyl, with cost-benefit and maintenance implications.
+- [What Auditors Actually Look For in Your Flooring](https://agedcareflooring.com.au/blog/flooring-accreditation-audit.html): Aged care accreditation audits demystified. Documentation requirements, common findings, and how to prepare before assessors arrive.
+- [Flooring That Works With Wheelchairs (Not Against Them)](https://agedcareflooring.com.au/blog/wheelchair-friendly-flooring.html): How surface texture, height transitions, and traction affect wheelchair and walker users, with design details that improve mobility and safety.
+- [How to Replace Aged Care Flooring Without Moving Everyone Out](https://agedcareflooring.com.au/blog/replacing-aged-care-flooring-without-relocating-residents.html): Logistics of staged installation in operating facilities — after-hours work, wing-by-wing rollouts, and coordination with care teams.
+
+## Standards & Compliance
+
+- AS 4586:2013 — Slip resistance classification for pedestrian surfaces (P-ratings, R-ratings).
+- AS 4663:2013 — In-situ slip testing using the wet pendulum method.
+- HB 198:2014 — Guide to slip resistance and design for vulnerable populations, including dementia wayfinding.
+- NSQHS Standards — National Safety and Quality Health Service Standards (infection control via seamless, cleanable surfaces).
+- Aged Care Quality Standards — Standards governing safety, quality of life, and care outcomes in Australian aged care.
+
+## Approved Brands
+
+Interface, Shaw Contract, Polyflor, Forbo, Armstrong, Karndean, Tarkett.
+
+## Optional
+
+- [Privacy Policy](https://agedcareflooring.com.au/privacy-policy.html): Privacy policy for the Premrest Aged Care Flooring website.
+- [Sitemap (XML)](https://agedcareflooring.com.au/sitemap.xml): Machine-readable sitemap of all public pages.
+- [Robots.txt](https://agedcareflooring.com.au/robots.txt): Crawler policy and content signals.
+- [Premrest (parent business)](https://www.premrest.com.au): Premrest commercial flooring — the parent specialist contractor.
