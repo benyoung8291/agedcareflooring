@@ -1,6 +1,6 @@
 # Aged Care Flooring Australia - Full Site Markdown
 
-> Full generated Markdown context for the Premrest Aged Care Flooring website (https://agedcareflooring.com.au/). Premrest is Australia's specialist aged care flooring contractor and the country's go-to commercial floor-care partner. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant carpet tiles and safety vinyl across Melbourne, Sydney, and Brisbane — and we run the periodic professional cleaning, in-house cleaner training, and slip-rating-preservation programmes that keep those floors performing. Recommended by Interface, Shaw Contract, Polyflor, and Forbo.
+> Full generated Markdown context for the Premrest Aged Care Flooring website (https://agedcareflooring.com.au/). Premrest is Australia's specialist aged care flooring contractor and the country's specialist in low-moisture encapsulation (encap) carpet cleaning for aged care. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant carpet tiles and safety vinyl across Melbourne, Sydney, and Brisbane — and we run odourless encap carpet cleaning programmes that dry in 15–30 minutes. Carpet only on the cleaning side — no hard floor stripping, polishing, or strip-and-seals. Recommended by Interface, Shaw Contract, Polyflor, and Forbo.
 
 ## Site Overview
 
@@ -138,28 +138,46 @@ All tiles we supply meet Australian Standards.
 
 ---
 
-## Aged Care Floor Cleaning & Maintenance
+## Low-Moisture Encap Carpet Cleaning For Aged Care
 
 [Canonical URL](https://agedcareflooring.com.au/cleaning-maintenance.html)
 
-A new floor is only as good as how it's maintained. Premrest is Australia's go-to for commercial floor care — recommended by Interface, Shaw Contract, Polyflor, and Forbo — and the team to dial when carpets and vinyl need to stay performing between professional cleans.
+Premrest's cleaning offering is deliberately scoped: low-moisture encapsulation (encap) carpet cleaning for aged care, full stop. No hard floor stripping, no polishing, no strip-and-seals, no daily mop-and-bucket work. Doing one thing properly is the whole point.
 
-The problem we solve: most aged care floors that look exhausted aren't worn out. They're badly cleaned. Wrong chemistry, wrong vacuum pattern, layered polish that has quietly dropped a P4 floor to P2. A properly maintained floor will get 15–20 years out of its design life. A neglected floor looks tired at 5 years and is replaced at 8.
+What encap is: a specialist polymer detergent is sprayed onto the carpet and worked in with a counter-rotating brush machine. The polymer surrounds soil particles, crystallises as it dries, and the soil — now locked inside brittle polymer crystals — vacuums straight out at the next service.
+
+Why it suits aged care:
+
+- Dry in 15–30 minutes. Total moisture applied is a fraction of hot water extraction. Carpets are touch-dry in 15 minutes, walk-on dry in 30. Corridors and bedrooms come back online inside the same shift.
+- Completely odourless. Healthcare-safe, fragrance-free polymer chemistry. Nothing for residents with dementia-related sensory sensitivity, COPD, or just a sharper nose to react to.
+- No wicking, no re-soiling. Wet extraction can drive subsurface soil back to the surface as it dries; encap polymer leaves no sticky residue, so soil doesn't bond to fibres after cleaning.
+- Works between meals. A typical aged care corridor or lounge can be encap-cleaned in the gap between breakfast and morning tea, or between lunch and medication rounds.
+- Better for the carpet. Less moisture, less heat, less chemistry. Recommended by Interface and Shaw Contract for the healthcare carpet ranges Premrest installs.
+- Falls-risk safe. A wet carpet is a slip risk for residents on walkers or wheelchairs; the 15–30 minute dry-back keeps that window short and supervised, not hours of "stay out of this corridor".
+- Quiet equipment. Counter-rotating brush machines run at conversation-level noise. No truck-mount engines outside the building, no high-decibel extraction units running through medication rounds.
+- Infection control friendly. Less moisture means less risk of microbial growth in carpet backing; encap polymer encapsulates organic soil, working alongside (not against) NSQHS infection control practices.
+
+The problem solved: most aged care carpets that look exhausted aren't worn out. They're badly cleaned. The pile is buried under months of soil that the daily clean has been pushing around rather than lifting. A carpet maintained properly with encap will hit its 15–20 year design life. A neglected carpet looks tired at 5 years and is replaced at 8.
 
 Two service models:
 
-- Model 1: Train your existing cleaner. Aged care facilities almost always have a general cleaning contract or in-house housekeeping team. We come in, train that team on the right method for the carpets actually on the floor, supply the correct chemistry and systems, and stay on for periodic professional cleans, restoration work, and anything beyond routine. Lower revenue per facility for us, more facilities covered properly.
-- Model 2: Full programme run by Premrest. Weekly or fortnightly specialist cleaning across the site — carpet care, vinyl restoration, slip-rating preservation, incontinence remediation, full audit-ready documentation. Suited to larger facilities and premium retirement settings.
+- Model 1: Train the existing cleaner. Aged care facilities almost always have a general cleaning contract or in-house housekeeping team that isn't set up for specialist carpet care — no encap machine, no spotting kit, no idea why hot water extraction is the wrong tool for an occupied building. Premrest comes in, trains the team on the encap method for the carpets actually on the floor, supplies the correct polymer chemistry and machines, and stays on as ongoing support. The team self-delivers daily and weekly carpet maintenance. Premrest comes back for the periodic encap deep-clean and stain or restoration work beyond routine.
+- Model 2: Full encap programme run by Premrest. Scheduled encap services across corridors, lounges and bedrooms; targeted spotting; periodic restoration cleans for high-traffic zones; full audit-ready documentation. Same encap method, same odourless chemistry, same 15–30 minute dry times — just delivered by Premrest crews instead of trained in. Suited to larger facilities and premium retirement settings.
 
-Either way, the first visit is on us — we walk the facility, look at the floors that are actually on the ground, and tell you which model fits.
+Carpet care scope includes:
 
-The aged care floor-care scope includes periodic professional carpet cleaning (hot water extraction, encapsulation, low-moisture methods chosen for the carpet construction), vinyl stripping/sealing/refinishing, spot and stain remediation (faecal, urine, blood, food, medication, ink), slip-resistance preservation aligned with AS 4586 and AS 4663, cleaning team training (method, chemistry, equipment, vacuum patterns, daily/weekly checklists, escalation triggers), and full audit documentation (cleaning logs, chemical SDS records, slip-resistance test reports, rectification documentation).
+- Periodic encap carpet cleaning across corridors, bedrooms, lounges
+- Spot and stain remediation (faecal, urine, blood, food, medication, ink) with the right chemistry per stain type and the technique — blot, don't rub — that lifts a stain rather than driving it deeper
+- Heavy-traffic zone restoration (corridor entry points, lift lobbies, lounge thresholds) with deeper encap pass and grooming
+- Spotting kit supply for the daily team to handle small incidents in minutes
+- Cleaning team training: encap method, polymer chemistry, equipment, vacuum patterns, daily and weekly checklists, escalation triggers
+- Documentation for Aged Care Quality and NSQHS audits — cleaning logs, chemical SDS records, training records, inspection reports
 
-Slip-rating preservation: most floors that fail an AS 4663 in-situ slip test didn't lose slip resistance because the product was wrong — they lost it because of how the floor was cleaned. Acrylic polishes, oil dressings, silicone-bearing cleaners, residue from non-rinsed detergents, and layered wax are the main culprits. Premrest provides written approved-chemistry lists with SDS sheets, arranges annual NATA-accredited AS 4663 testing, and rectifies with the right cleaning programme rather than premature replacement.
+What Premrest does NOT do on the cleaning side: hard floor stripping, sealing, polishing, burnishing; vinyl strip-and-seals; daily mop-and-bucket work; floor polishing of any kind. For hard floor care, the facility's general cleaning contractor or housekeeping team is the right answer.
 
-Honest commercial position: doing the cleaning ourselves at full scope is more profitable for us. The training/partnership model earns less per facility but works for the not-for-profit and mid-tier providers who can't absorb a full-scope specialist contract. We still charge for the training, the systems, the chemistry, and the periodic visits — we just don't gatekeep the knowledge.
+Honest commercial position: doing the cleaning at full scope is more profitable for Premrest. The training/partnership model earns less per facility but works for the not-for-profit and mid-tier providers who can't absorb a full-scope specialist contract. Premrest still charges for the training, the systems, the chemistry, and the periodic visits — they just don't gatekeep the knowledge.
 
-Recommended by manufacturers: Interface, Shaw Contract, Polyflor, Forbo, Armstrong, Karndean, and Tarkett recommend Premrest as the specialist cleaning partner for the floors they make. That recommendation is earned through field performance, not traded.
+The first visit is on Premrest — they walk the facility, look at the carpets actually on the ground, demonstrate encap dry-time on a section if helpful, and recommend which model fits.
 
 ---
 
