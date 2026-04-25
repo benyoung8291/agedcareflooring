@@ -1,6 +1,6 @@
 # Aged Care Flooring Australia (Premrest)
 
-> Premrest is Australia's specialist aged care flooring contractor. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant vinyl and carpet tiles for nursing homes and retirement villages across Melbourne, Sydney, and Brisbane — without shutting facilities down or relocating residents.
+> Premrest is Australia's specialist aged care flooring contractor and the country's go-to commercial floor-care partner. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant vinyl and carpet tiles for nursing homes and retirement villages — and we run the periodic professional cleaning, training, and slip-rating-preservation programmes that keep those floors performing for their full design life. Recommended by Interface, Shaw Contract, Polyflor, and Forbo. Across Melbourne, Sydney, and Brisbane.
 
 This file is a concise index for language models. Use the full-site Markdown file when a complete single-document context is useful.
 
@@ -17,6 +17,7 @@ Service areas: Melbourne, Sydney, Brisbane, and regional Australia.
 - [Aged Care Flooring Australia](https://agedcareflooring.com.au/): Home page. Specialist aged care flooring that passes every slip test, dementia audit, and infection-control check. Supply and install across Melbourne, Sydney, and Brisbane.
 - [Carpet Tiles for Aged Care](https://agedcareflooring.com.au/carpet-tiles.html): Interface and Shaw Contract carpet tiles purpose-built for aged care environments. Noise-dampening, dementia-friendly palettes, tile-level replacement.
 - [Safety Vinyl Flooring for Aged Care](https://agedcareflooring.com.au/vinyl-flooring.html): Polyflor, Forbo, Armstrong, Karndean, and Tarkett healthcare safety vinyl for wet areas, dining rooms, and clinical spaces. Seamless, AS 4586 slip-rated.
+- [Aged Care Floor Cleaning & Maintenance](https://agedcareflooring.com.au/cleaning-maintenance.html): Periodic professional carpet and vinyl cleaning, training for your general cleaner or in-house housekeeping team, supply of correct chemistry and equipment, slip-rating preservation, and audit-ready documentation. Recommended by Interface, Shaw Contract, Polyflor, and Forbo.
 - [Slip Resistance Testing & Compliance](https://agedcareflooring.com.au/slip-resistance.html): AS 4586:2013 classification, AS 4663:2013 in-situ pendulum testing, P-ratings explained, and rectification of failing floors.
 - [Dementia-Friendly Flooring Design](https://agedcareflooring.com.au/dementia-friendly-flooring.html): Wayfinding, colour contrast, pattern selection, and HB 198:2014 design principles for dementia care environments.
 - [Articles & Insights (Blog)](https://agedcareflooring.com.au/blog/): Practical guides for facility managers covering compliance, safety, design, and installation logistics.
@@ -30,6 +31,7 @@ Service areas: Melbourne, Sydney, Brisbane, and regional Australia.
 
 ## Articles
 
+- [Carpet Cleaning In Aged Care: Why We'll Train Your General Cleaner](https://agedcareflooring.com.au/blog/training-general-cleaners-aged-care.html): The two service models Premrest runs on aged care sites and why the partnership model that earns less per facility is often the right call.
 - [Commercial Cork Flooring in Aged Care: The Underrated Spec](https://agedcareflooring.com.au/blog/cork-flooring-aged-care.html): Why modern commercial cork is quietly one of the best flooring specs for aged care bedrooms, lounges, and dementia areas — acoustic, antimicrobial, fall-cushioning, and durable when properly specified.
 - [Why Aged Care Floors Develop That Smell (And How to Stop It)](https://agedcareflooring.com.au/blog/aged-care-floor-odour-incontinence.html): Where urine odour hides in nursing home floors, why daily mopping makes it worse, and the flooring specification that fixes it for good.
 - [Why Your Floor Cleaner Is Making Your Floor Dangerous](https://agedcareflooring.com.au/blog/cleaning-chemicals-slip-resistance.html): How common cleaning products affect slip ratings over time, what AS 4586 and AS 4663 actually measure, and which chemicals preserve compliance.

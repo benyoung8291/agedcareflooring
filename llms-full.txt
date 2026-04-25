@@ -1,6 +1,6 @@
 # Aged Care Flooring Australia - Full Site Markdown
 
-> Full generated Markdown context for the Premrest Aged Care Flooring website (https://agedcareflooring.com.au/). Premrest is Australia's specialist aged care flooring contractor, supplying and installing AS 4586 slip-rated, dementia-friendly, and infection-control compliant carpet tiles and safety vinyl across Melbourne, Sydney, and Brisbane.
+> Full generated Markdown context for the Premrest Aged Care Flooring website (https://agedcareflooring.com.au/). Premrest is Australia's specialist aged care flooring contractor and the country's go-to commercial floor-care partner. We supply and install AS 4586 slip-rated, dementia-friendly, and infection-control compliant carpet tiles and safety vinyl across Melbourne, Sydney, and Brisbane — and we run the periodic professional cleaning, in-house cleaner training, and slip-rating-preservation programmes that keep those floors performing. Recommended by Interface, Shaw Contract, Polyflor, and Forbo.
 
 ## Site Overview
 
@@ -135,6 +135,31 @@ All tiles we supply meet Australian Standards.
 - Warranty: 10-15 years (commercial). Covers manufacturing defects and colour fastness under normal use.
 - Antimicrobial option: Optional on premium ranges. Reduces bacterial growth.
 - Thickness: 12-15mm typical. Pile plus backing. Thicker backing absorbs sound better and feels more comfortable underfoot.
+
+---
+
+## Aged Care Floor Cleaning & Maintenance
+
+[Canonical URL](https://agedcareflooring.com.au/cleaning-maintenance.html)
+
+A new floor is only as good as how it's maintained. Premrest is Australia's go-to for commercial floor care — recommended by Interface, Shaw Contract, Polyflor, and Forbo — and the team to dial when carpets and vinyl need to stay performing between professional cleans.
+
+The problem we solve: most aged care floors that look exhausted aren't worn out. They're badly cleaned. Wrong chemistry, wrong vacuum pattern, layered polish that has quietly dropped a P4 floor to P2. A properly maintained floor will get 15–20 years out of its design life. A neglected floor looks tired at 5 years and is replaced at 8.
+
+Two service models:
+
+- Model 1: Train your existing cleaner. Aged care facilities almost always have a general cleaning contract or in-house housekeeping team. We come in, train that team on the right method for the carpets actually on the floor, supply the correct chemistry and systems, and stay on for periodic professional cleans, restoration work, and anything beyond routine. Lower revenue per facility for us, more facilities covered properly.
+- Model 2: Full programme run by Premrest. Weekly or fortnightly specialist cleaning across the site — carpet care, vinyl restoration, slip-rating preservation, incontinence remediation, full audit-ready documentation. Suited to larger facilities and premium retirement settings.
+
+Either way, the first visit is on us — we walk the facility, look at the floors that are actually on the ground, and tell you which model fits.
+
+The aged care floor-care scope includes periodic professional carpet cleaning (hot water extraction, encapsulation, low-moisture methods chosen for the carpet construction), vinyl stripping/sealing/refinishing, spot and stain remediation (faecal, urine, blood, food, medication, ink), slip-resistance preservation aligned with AS 4586 and AS 4663, cleaning team training (method, chemistry, equipment, vacuum patterns, daily/weekly checklists, escalation triggers), and full audit documentation (cleaning logs, chemical SDS records, slip-resistance test reports, rectification documentation).
+
+Slip-rating preservation: most floors that fail an AS 4663 in-situ slip test didn't lose slip resistance because the product was wrong — they lost it because of how the floor was cleaned. Acrylic polishes, oil dressings, silicone-bearing cleaners, residue from non-rinsed detergents, and layered wax are the main culprits. Premrest provides written approved-chemistry lists with SDS sheets, arranges annual NATA-accredited AS 4663 testing, and rectifies with the right cleaning programme rather than premature replacement.
+
+Honest commercial position: doing the cleaning ourselves at full scope is more profitable for us. The training/partnership model earns less per facility but works for the not-for-profit and mid-tier providers who can't absorb a full-scope specialist contract. We still charge for the training, the systems, the chemistry, and the periodic visits — we just don't gatekeep the knowledge.
+
+Recommended by manufacturers: Interface, Shaw Contract, Polyflor, Forbo, Armstrong, Karndean, and Tarkett recommend Premrest as the specialist cleaning partner for the floors they make. That recommendation is earned through field performance, not traded.
 
 ---
 
@@ -492,6 +517,29 @@ We're Premrest, a specialist commercial flooring contractor that focuses on envi
 [Canonical URL](https://agedcareflooring.com.au/blog/)
 
 Practical guides for facility managers covering compliance, safety, design choices, and the logistics of getting floors right in aged care environments.
+
+### Carpet Cleaning In Aged Care: Why We'll Train Your General Cleaner To Do The Job
+
+[Canonical URL](https://agedcareflooring.com.au/blog/training-general-cleaners-aged-care.html)
+
+By the team at Premrest. Premrest's Special Projects Director Colin spent a day at a Melbourne aged care facility training the site's general cleaning team on how to properly maintain the carpets between Premrest's periodic professional cleans. By the end of the session the team were "blown away" — not because the method was complicated, but because it wasn't.
+
+How Premrest typically runs an aged care site, in two models:
+
+1. Partnering with the general cleaning company. Aged care facilities almost always have a general cleaning contract already in place. In most cases that company isn't set up for specialist carpet care. Rather than push them out of scope, Premrest comes in, trains the team, supplies the right chemistry and systems, and stays on as ongoing support. The general cleaner self-delivers the maintenance work; Premrest handles the periodic professional clean and restoration work.
+2. Training the facility's in-house team. Some aged care groups have their own housekeeping or cleaning staff. Same principle: train them on carpet maintenance between periodic visits, give them the right tools, stay available.
+
+Either way, the facility ends up with carpets that stay looking right day-to-day, and Premrest's periodic clean turns into a reset rather than an archaeological dig through months of neglected soil.
+
+The honest bit: doing the cleaning at full scope is the more profitable model for Premrest. But it doesn't work for every facility. Many aged care operators run on tight margins, particularly in the not-for-profit and mid-tier provider space. Residents shouldn't end up living with neglected floors because the specialist option was out of reach. The partnership model earns less per facility in exchange for more facilities having properly maintained carpets.
+
+This isn't charity — it's a commercial model. Premrest still charges for the training, the systems, the chemistry, and the periodic visits. They just don't gatekeep the knowledge or pretend carpet maintenance is more mysterious than it is to charge a premium for the mystery.
+
+What a training session covers: the right chemistry for the specific carpets on the floor; the wrong chemistry and why certain general-cleaning products damage commercial carpet; spot cleaning technique (blotting vs rubbing, and why most stain failures are stains driven deeper into the fibre); vacuuming pattern and frequency for high-traffic versus private rooms; daily and weekly maintenance checklists; the signs that say "call us in for a restoration clean" rather than trying to rescue a carpet past the point of routine maintenance.
+
+Many aged care groups use Premrest for both sides of the floor — replacement and installation through the specialist aged care flooring capability, and periodic cleaning and maintenance training through the team Colin leads. That combination produces the best long-term outcomes because the install side and cleaning side feed back to each other.
+
+Closing line: "If the cleaning team you train ends up running the maintenance better than some full-service contracts we've seen, we take that as a compliment rather than a threat."
 
 ### Commercial Cork Flooring in Aged Care: The Underrated Spec
 
