@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Specialist aged care flooring services in Brisbane. Premrest supplies and installs AS 4586 compliant slip-resistant flooring for nursing homes, retirement villages, and residential care facilities across Queensland.">
+    <meta name="description" content="Specialist aged care flooring contractor in Brisbane. Premrest supplies and installs carpet tiles, vinyl planks and AS 4586 slip-rated safety vinyl for nursing homes, retirement villages, and residential care facilities across Queensland. Free quotes.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#2C2D30">
     <meta name="geo.region" content="AU-QLD">
     <meta name="geo.placename" content="Brisbane">
-    <meta property="og:title" content="Aged Care Flooring Brisbane | Supply & Installation | Premrest">
+    <meta property="og:title" content="Aged Care Flooring Contractor Brisbane | Supply &amp; Install | Premrest">
     <meta property="og:description" content="Specialist aged care flooring in Brisbane. Compliant slip-resistant solutions for nursing homes and retirement villages across Queensland.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://agedcareflooring.com.au/brisbane.html">
@@ -16,11 +16,11 @@
     <meta property="og:locale" content="en_AU">
     <meta property="og:site_name" content="Premrest Aged Care Flooring">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aged Care Flooring Brisbane | Supply & Installation | Premrest">
+    <meta name="twitter:title" content="Aged Care Flooring Contractor Brisbane | Supply &amp; Install | Premrest">
     <meta name="twitter:description" content="Specialist aged care flooring in Brisbane. AS 4586 compliant slip-resistant solutions for nursing homes and retirement villages.">
     <meta name="twitter:image" content="https://agedcareflooring.com.au/og-image.jpg">
     <link rel="canonical" href="https://agedcareflooring.com.au/brisbane.html">
-    <title>Aged Care Flooring Brisbane | Supply & Installation | Premrest</title>
+    <title>Aged Care Flooring Contractor Brisbane | Supply &amp; Install | Premrest</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
@@ -117,7 +117,7 @@
                 Aged Care Flooring in <span class="highlight">Brisbane</span>
             </h1>
             <p class="hero-subtitle">
-                Premrest supplies and installs aged care flooring across Brisbane and South-East Queensland. We understand the actual problems you face: slip and fall liability, accreditation audits, logistical constraints, resident safety. And we solve them with flooring that works.
+                Premrest is the specialist flooring contractor for aged care facilities across Brisbane and South-East Queensland &mdash; supply and install of carpet tiles, vinyl planks and safety vinyl. We understand the actual problems you face: slip and fall liability, accreditation audits, logistical constraints, resident safety. And we solve them with flooring that works.
             </p>
             <div class="hero-ctas">
                 <a href="contact.html" class="btn btn-primary">Request a Quote</a>
@@ -404,11 +404,13 @@
         });
 
         // Intersection Observer for Fade-In Elements
-        const fadeInElements = document.querySelectorAll('.fade-in');
+        document.documentElement.classList.add('js');
+        const fadeInElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
                 }
             });
         }, {

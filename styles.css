@@ -17,6 +17,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Keep in-page anchor targets clear of the sticky navbar */
+[id] {
+  scroll-margin-top: 90px;
+}
+
+::selection {
+  background-color: #C76138;
+  color: #FFFFFF;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F8F8F7;
@@ -121,7 +131,12 @@ a:hover {
   letter-spacing: 0.5px;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.25s ease;
   text-align: center;
   border-radius: 0;
   text-decoration: none;
@@ -138,10 +153,14 @@ a:hover {
 
 .btn-primary:hover {
   background-color: #B5552E;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(199, 97, 56, 0.5);
 }
 
 .btn-primary:active {
   background-color: #9E4823;
+  transform: translateY(0);
+  box-shadow: 0 4px 10px -6px rgba(199, 97, 56, 0.5);
 }
 
 .btn-secondary {
@@ -153,10 +172,14 @@ a:hover {
 .btn-secondary:hover {
   background-color: #2C2D30;
   color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -12px rgba(44, 45, 48, 0.45);
 }
 
 .btn-secondary:active {
   background-color: #1a1b1e;
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 .btn-white {
@@ -192,8 +215,17 @@ select {
   border: 1px solid #D0CFC9;
   background-color: white;
   color: #2C2D30;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   border-radius: 0;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover,
+textarea:hover,
+select:hover {
+  border-color: #A8A7A0;
 }
 
 input[type="text"]:focus,
@@ -771,6 +803,7 @@ footer {
   }
 }
 
+/* Fallback when JavaScript is unavailable: animate on load */
 .fade-in {
   animation: fadeIn 0.6s ease forwards;
   opacity: 0;
@@ -786,12 +819,45 @@ footer {
   opacity: 0;
 }
 
-/* Intersection Observer Stagger */
 .fade-in:nth-child(1) { animation-delay: 0s; }
 .fade-in:nth-child(2) { animation-delay: 0.1s; }
 .fade-in:nth-child(3) { animation-delay: 0.2s; }
 .fade-in:nth-child(4) { animation-delay: 0.3s; }
 .fade-in:nth-child(5) { animation-delay: 0.4s; }
+.fade-in:nth-child(6) { animation-delay: 0.5s; }
+
+/* Scroll-triggered reveal: the inline script tags <html> with .js and the
+   IntersectionObserver adds .visible as each element enters the viewport */
+.js .fade-in,
+.js .slide-in-left,
+.js .slide-in-right {
+  animation: none;
+  opacity: 0;
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.js .fade-in { transform: translateY(26px); }
+.js .slide-in-left { transform: translateX(-30px); }
+.js .slide-in-right { transform: translateX(30px); }
+
+.js .fade-in.visible,
+.js .slide-in-left.visible,
+.js .slide-in-right.visible {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* Stagger siblings as a group scrolls into view */
+.js .fade-in:nth-child(1) { transition-delay: 0s; }
+.js .fade-in:nth-child(2) { transition-delay: 0.08s; }
+.js .fade-in:nth-child(3) { transition-delay: 0.16s; }
+.js .fade-in:nth-child(4) { transition-delay: 0.24s; }
+.js .fade-in:nth-child(5) { transition-delay: 0.32s; }
+.js .fade-in:nth-child(6) { transition-delay: 0.4s; }
 
 /* ========================================
    13. IMAGES & MEDIA
@@ -1200,6 +1266,29 @@ picture {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .fade-in,
+  .slide-in-left,
+  .slide-in-right,
+  .js .fade-in,
+  .js .slide-in-left,
+  .js .slide-in-right,
+  .hero-content > *,
+  .hero-visual {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .hero-floating-card--top,
+  .hero-floating-card--bottom {
+    animation: none !important;
   }
 }
 
@@ -1372,22 +1461,34 @@ textarea:focus-visible {
 }
 
 .nav-dropdown-menu {
-  display: none;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
   position: absolute;
   top: calc(100% + 8px);
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(8px);
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 32px -8px rgba(44, 45, 48, 0.18);
   padding: 8px 0;
   min-width: 160px;
   z-index: 100;
   list-style: none;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0s linear 0.22s;
 }
 
-.nav-dropdown:hover .nav-dropdown-menu {
-  display: block;
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .nav-dropdown-menu li a {
@@ -1628,6 +1729,49 @@ textarea:focus-visible {
   line-height: 1.3;
 }
 
+/* Hero entrance choreography (pure CSS, runs on load) */
+@keyframes heroRise {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content > * {
+  animation: heroRise 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-content > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-content > *:nth-child(2) { animation-delay: 0.13s; }
+.hero-content > *:nth-child(3) { animation-delay: 0.21s; }
+.hero-content > *:nth-child(4) { animation-delay: 0.29s; }
+.hero-content > *:nth-child(5) { animation-delay: 0.37s; }
+.hero-content > *:nth-child(6) { animation-delay: 0.45s; }
+
+.hero-visual {
+  animation: heroRise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.25s both;
+}
+
+/* Gentle idle float for the hero stat cards */
+@keyframes floatCard {
+  0%, 100% { transform: rotate(var(--card-rot, 0deg)) translateY(0); }
+  50% { transform: rotate(var(--card-rot, 0deg)) translateY(-7px); }
+}
+
+.hero-floating-card--top {
+  --card-rot: -2deg;
+  animation: floatCard 6s ease-in-out 1.4s infinite;
+}
+
+.hero-floating-card--bottom {
+  --card-rot: 2deg;
+  animation: floatCard 7s ease-in-out 2s infinite;
+}
+
 /* Section Eyebrow */
 .section-eyebrow {
   display: inline-block;
@@ -1827,14 +1971,14 @@ textarea:focus-visible {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 2px;
   overflow: hidden;
-  transition: all 0.2s ease;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
 }
 
 .solution-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 0 24px 48px -20px rgba(44, 45, 48, 0.2);
+  transform: translateY(-4px);
 }
 
 .solution-card .card-image {
@@ -1850,7 +1994,7 @@ textarea:focus-visible {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.4s ease;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .solution-card:hover .card-image img {
@@ -1880,12 +2024,33 @@ textarea:focus-visible {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
   margin-top: auto;
+  display: inline-block;
+  position: relative;
+  align-self: flex-start;
+}
+
+.solution-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
 }
 
 .solution-link:hover {
   color: #B5552E;
+  transform: translateX(4px);
+}
+
+.solution-link:hover::after {
+  transform: scaleX(1);
 }
 
 /* Why Premrest / How We Work */
@@ -2252,18 +2417,21 @@ textarea:focus-visible {
     padding: 0;
     min-width: unset;
     display: none;
+    visibility: visible;
+    opacity: 1;
+    transition: none;
     background-color: #F8F8F7;
   }
 
-  .nav-dropdown.open .nav-dropdown-menu {
-    display: block;
-  }
-
-  .nav-dropdown:hover .nav-dropdown-menu {
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown:focus-within .nav-dropdown-menu {
     display: none;
+    transform: none;
+    transition: none;
   }
 
-  .nav-dropdown.open .nav-dropdown-menu {
+  .nav-dropdown.open .nav-dropdown-menu,
+  .nav-dropdown.open:hover .nav-dropdown-menu {
     display: block;
   }
 
@@ -2446,7 +2614,21 @@ textarea:focus-visible {
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 28px;
+}
+
+.faq-item {
+  background-color: #FFFFFF;
+  border: 1px solid #EFEAE2;
+  border-radius: 14px;
+  padding: 28px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(199, 97, 56, 0.3);
+  box-shadow: 0 18px 36px -22px rgba(44, 45, 48, 0.25);
 }
 
 .faq-item h3 {
@@ -2458,6 +2640,7 @@ textarea:focus-visible {
   font-size: 15px;
   color: #6B6B6B;
   line-height: 1.7;
+  margin: 0;
 }
 
 /* ========================================

@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Carpet tiles for aged care facilities featuring Interface and Shaw Contract brands. Slip-rated, acoustic, easy replacement. Melbourne, Sydney, Brisbane.">
+    <meta name="description" content="Supply and install of carpet tiles for aged care facilities. Specialist flooring contractor for Interface and Shaw Contract healthcare ranges — slip-rated, acoustic, dementia-friendly, tile-level replacement. Free quotes in Melbourne, Sydney, Brisbane.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#2C2D30">
     <meta name="geo.region" content="AU">
-    <meta property="og:title" content="Carpet Tiles for Aged Care | Interface & Shaw Contract | Supply & Install">
-    <meta property="og:description" content="Specialist carpet tiles for aged care bedrooms, corridors, and common areas. Slip-rated, acoustic, dementia-friendly. Interface and Shaw Contract.">
+    <meta property="og:title" content="Carpet Tiles for Aged Care | Supply &amp; Install | Interface &amp; Shaw Contract">
+    <meta property="og:description" content="Supply and install of carpet tiles for aged care bedrooms, corridors, and common areas. Slip-rated, acoustic, dementia-friendly. Free quotes.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://agedcareflooring.com.au/carpet-tiles.html">
     <meta property="og:image" content="https://agedcareflooring.com.au/og-image.jpg">
     <meta property="og:locale" content="en_AU">
     <meta property="og:site_name" content="Premrest Aged Care Flooring">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Carpet Tiles for Aged Care | Interface & Shaw Contract | Supply & Install">
+    <meta name="twitter:title" content="Carpet Tiles for Aged Care | Supply &amp; Install | Interface &amp; Shaw Contract">
     <meta name="twitter:description" content="Specialist carpet tiles for aged care bedrooms, corridors, and common areas. Slip-rated, acoustic, dementia-friendly.">
     <meta name="twitter:image" content="https://agedcareflooring.com.au/og-image.jpg">
     <link rel="canonical" href="https://agedcareflooring.com.au/carpet-tiles.html">
-    <title>Carpet Tiles for Aged Care | Interface & Shaw Contract | Supply & Install</title>
+    <title>Carpet Tiles for Aged Care | Supply &amp; Install | Interface &amp; Shaw Contract</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
@@ -32,6 +32,7 @@
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Carpet Tiles for Aged Care",
+      "serviceType": "Carpet tile supply and installation",
       "description": "Specialist carpet tile supply and installation for aged care nursing homes, retirement villages, and residential care facilities. Interface and Shaw Contract brands.",
       "url": "https://agedcareflooring.com.au/carpet-tiles.html",
       "provider": {
@@ -108,10 +109,10 @@
                 Carpet Tiles for <span class="highlight">Aged Care</span>
             </h1>
             <p class="hero-subtitle">
-                Carpet tiles solve a real problem in aged care: you need a floor that keeps residents safe, stays quiet, and doesn't drive your staff crazy when it needs fixing. That's why Interface and Shaw Contract are the go-to choices. We supply and install tiles that tick all the boxes, and we're here when you need to swap one out.
+                Carpet tiles solve a real problem in aged care: you need a floor that keeps residents safe, stays quiet, and doesn't drive your staff crazy when it needs fixing. That's why Interface and Shaw Contract are the go-to choices. As a specialist aged care flooring contractor, we quote, supply and install carpet tiles that tick all the boxes &mdash; and we're here when you need to swap one out.
             </p>
             <div class="hero-ctas">
-                <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+                <a href="contact.html" class="btn btn-primary">Get a Supply &amp; Install Quote</a>
                 <a href="#why-carpet-tiles" class="btn btn-secondary">Why Carpet Tiles?</a>
             </div>
             <p class="hero-trust">Melbourne · Sydney · Brisbane · Interface & Shaw Contract Specialists</p>
@@ -604,11 +605,13 @@
         });
 
         // Intersection Observer for Fade-In Elements
-        const fadeInElements = document.querySelectorAll('.fade-in');
+        document.documentElement.classList.add('js');
+        const fadeInElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
                 }
             });
         }, {
