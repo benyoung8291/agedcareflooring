@@ -38,8 +38,6 @@
       "provider": {
         "@type": "LocalBusiness",
         "name": "Premrest Aged Care Flooring",
-        "telephone": "1300 207 915",
-        "email": "office@premrest.com.au",
         "priceRange": "$$",
         "areaServed": [
           { "@type": "City", "name": "Melbourne" },
@@ -95,9 +93,6 @@
                 </li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <div class="navbar-contact">
-                <span class="phone">1300 207 915</span>
-            </div>
             <a href="contact.html" class="btn btn-primary">Get a Quote</a>
         </div>
     </nav>
@@ -442,6 +437,21 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="state">Which State Are You In?</label>
+                            <select id="state" name="state" required>
+                                <option value="">Select your state</option>
+                                <option value="VIC">Victoria</option>
+                                <option value="NSW">New South Wales</option>
+                                <option value="QLD">Queensland</option>
+                                <option value="ACT">Australian Capital Territory</option>
+                                <option value="SA">South Australia</option>
+                                <option value="WA">Western Australia</option>
+                                <option value="TAS">Tasmania</option>
+                                <option value="NT">Northern Territory</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
                             <label for="enquiry-type">What Are You Looking For?</label>
                             <select id="enquiry-type" name="enquiry_type" required>
                                 <option value="">Select an option</option>
@@ -467,12 +477,8 @@
                     <h3>Contact Premrest</h3>
                     <div class="contact-details">
                         <div class="contact-detail">
-                            <strong>Phone</strong>
-                            <p><a href="tel:1300207915">1300 207 915</a></p>
-                        </div>
-                        <div class="contact-detail">
-                            <strong>Email</strong>
-                            <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
+                            <strong>Enquiries</strong>
+                            <p>Use the enquiry form &mdash; we respond within one business day.</p>
                         </div>
                         <div class="contact-detail">
                             <strong>Service Areas</strong>
@@ -494,7 +500,6 @@
                 <div class="footer-column">
                     <h4>About Premrest</h4>
                     <p>Australia's go-to for commercial floor care. Cleaning and installing commercial floors.</p>
-                    <p class="footer-division">A division of Premier Restorations Group Pty Ltd</p>
                 </div>
 
                 <div class="footer-column">
@@ -520,8 +525,7 @@
 
                 <div class="footer-column">
                     <h4>Contact</h4>
-                    <p><a href="tel:1300207915">1300 207 915</a></p>
-                    <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
+                    <p><a href="contact.html#contact-form">Contact us via our enquiry form</a></p>
                     <p><a href="https://www.premrest.com.au" target="_blank" rel="noopener noreferrer">premrest.com.au</a></p>
                 </div>
             </div>
@@ -532,21 +536,14 @@
                 <h4>Our Specialist Services</h4>
                 <div class="services-links">
                     <a href="https://www.premrest.com.au" target="_blank" rel="noopener noreferrer">Premrest</a>
-                    <a href="https://modularcarpet.com.au" target="_blank" rel="noopener noreferrer">Modular Carpet</a>
-                    <a href="https://vinyltiles.com.au" target="_blank" rel="noopener noreferrer">Vinyl Tiles</a>
-                    <a href="https://localcarpetcleaning.com.au" target="_blank" rel="noopener noreferrer">Carpet Cleaning</a>
-                    <a href="https://floodrest.com.au" target="_blank" rel="noopener noreferrer">Flood Restoration</a>
                     <a href="https://comcorkflooring.com.au" target="_blank" rel="noopener noreferrer">Commercial Cork</a>
-                    <a href="https://medicalflooring.com.au" target="_blank" rel="noopener noreferrer">Medical Flooring</a>
-                    <a href="https://retailflooring.com.au" target="_blank" rel="noopener noreferrer">Retail Flooring</a>
-                    <a href="https://strataflooring.com.au" target="_blank" rel="noopener noreferrer">Strata Flooring</a>
                 </div>
             </div>
 
             <div class="footer-divider"></div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Premier Restorations Group Pty Ltd trading as Premrest | ABN 27 634 747 952 | All rights reserved</p>
+                <p>&copy; 2026 Premier Restorations Group Pty Ltd (ABN 27 634 747 952), trading as Premrest | All rights reserved</p>
                 <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
                 <span class="footer-link-sep" aria-hidden="true">&middot;</span>
                 <a href="llms.txt" class="footer-link">LLMs.txt</a>
@@ -647,10 +644,11 @@
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
+            const state = document.getElementById('state').value;
             const enquiryType = document.getElementById('enquiry-type').value;
             const message = document.getElementById('message').value.trim();
 
-            if (!name || !email || !phone || !enquiryType || !message) {
+            if (!name || !email || !phone || !state || !enquiryType || !message) {
                 alert('Please fill in all required fields.');
                 return;
             }
@@ -675,17 +673,16 @@
                         '<div class="form-thankyou">' +
                         '<h2>Thank You</h2>' +
                         '<p>Your enquiry has been received. We\'ll be in touch within one business day.</p>' +
-                        '<p class="thankyou-phone">Or call us now on <a href="tel:1300207915">1300 207 915</a></p>' +
                         '</div>';
                 } else {
                     submitBtn.disabled = false;
                     submitBtn.textContent = 'Send Enquiry';
-                    alert('Something went wrong. Please try again or call us on 1300 207 915.');
+                    alert('Something went wrong. Please try again.');
                 }
             }).catch(function() {
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Send Enquiry';
-                alert('Something went wrong. Please try again or call us on 1300 207 915.');
+                alert('Something went wrong. Please try again.');
             });
         });
     </script>

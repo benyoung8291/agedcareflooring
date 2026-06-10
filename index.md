@@ -4,8 +4,7 @@
 
 Premrest is Australia's specialist aged care flooring contractor. We supply and install compliant vinyl and carpet tiles without shutting your facility down — AS 4586 slip-rated, dementia-friendly, seamless for infection control, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
 
-- **Phone:** 1300 207 915
-- **Email:** office@premrest.com.au
+- **Contact:** Enquiry form at https://agedcareflooring.com.au/contact.html
 - **Service areas:** Melbourne, Sydney, Brisbane, and regional Australia
 - **Website:** https://agedcareflooring.com.au/
 
@@ -71,6 +70,4 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 Start with a free site assessment. No obligation, no pressure — just a conversation about what you actually need.
 
-- **Phone:** [1300 207 915](tel:1300207915)
-- **Email:** office@premrest.com.au
 - **Contact form:** https://agedcareflooring.com.au/contact.html

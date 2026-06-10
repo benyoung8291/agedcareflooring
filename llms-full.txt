@@ -7,8 +7,7 @@
 Premrest specialises in flooring for nursing homes and retirement villages. The site covers the two main flooring types we install (carpet tiles and safety vinyl), the standards that govern aged care flooring (AS 4586:2013, AS 4663:2013, HB 198:2014, NSQHS, Aged Care Quality Standards), dementia-friendly design principles, slip resistance compliance, location-specific service information, and a blog with practical guides for facility managers.
 
 Canonical site URL: https://agedcareflooring.com.au/
-Phone: 1300 207 915
-Email: office@premrest.com.au
+Contact: enquiry form at https://agedcareflooring.com.au/contact.html
 Service areas: Melbourne, Sydney, Brisbane, and regional Australia.
 
 Approved manufacturer brands: Interface, Shaw Contract, Polyflor, Forbo, Armstrong, Karndean, Tarkett.
@@ -522,8 +521,7 @@ Services across Brisbane include carpet tile installation, seamless vinyl instal
 
 Talk to a specialist about your facility's flooring. Whether it's a new build, a replacement project, or a floor that's failing slip tests — start here. No obligation, no pressure, just a conversation about what you actually need.
 
-Phone: 1300 207 915
-Email: office@premrest.com.au
+Contact: enquiry form at https://agedcareflooring.com.au/contact.html
 Service areas: Melbourne, Sydney, Brisbane.
 
 We're Premrest, a specialist commercial flooring contractor that focuses on environments where the floor actually matters. Aged care is one of those environments. We'll get back to you within one business day.
@@ -642,7 +640,7 @@ The decisions that drive a successful staged installation: capacity (do you have
 
 [Canonical URL](https://agedcareflooring.com.au/privacy-policy.html)
 
-The privacy policy describes how Premrest Aged Care Flooring (a division of Premier Restorations Group Pty Ltd, ABN 27 634 747 952) collects, stores, and uses information submitted via the website's contact form, including name, email, phone, facility, and enquiry details. Information is used to respond to enquiries, provide quotes, and follow up on flooring projects. Premrest does not sell or share personal information with third parties for marketing.
+The privacy policy describes how Premier Restorations Group Pty Ltd (ABN 27 634 747 952), trading as Premrest, collects, stores, and uses information submitted via the website's contact form, including name, email, phone, facility, and enquiry details. Information is used to respond to enquiries, provide quotes, and follow up on flooring projects. Premrest does not sell or share personal information with third parties for marketing.
 
 ---
 
@@ -650,4 +648,4 @@ The privacy policy describes how Premrest Aged Care Flooring (a division of Prem
 
 This llms-full.txt is a Markdown export of the public Premrest Aged Care Flooring website intended for AI agents and language models that need a single-document context for the site. It is updated when the underlying pages are updated. For the concise index, see https://agedcareflooring.com.au/llms.txt. The full HTML site lives at https://agedcareflooring.com.au/.
 
-For project enquiries: phone 1300 207 915, email office@premrest.com.au.
+For project enquiries: use the contact form at https://agedcareflooring.com.au/contact.html.
