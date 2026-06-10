@@ -42,8 +42,6 @@
       "name": "Premrest Aged Care Flooring",
       "image": "https://agedcareflooring.com.au/images/forbo-aged-care-dining.webp",
       "description": "Specialist aged care flooring supply and installation for nursing homes, retirement villages, and residential care facilities across Melbourne, Sydney, and Brisbane.",
-      "telephone": "1300 207 915",
-      "email": "office@premrest.com.au",
       "priceRange": "$$",
       "address": [
         { "@type": "PostalAddress", "addressLocality": "Melbourne", "addressRegion": "VIC", "addressCountry": "AU" },
@@ -83,13 +81,6 @@
       "url": "https://agedcareflooring.com.au/",
       "logo": "https://agedcareflooring.com.au/apple-touch-icon.png",
       "description": "Specialist aged care flooring contractor supplying and installing slip-rated, dementia-friendly and infection-control compliant flooring for nursing homes and retirement villages across Australia.",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+61-1300-207-915",
-        "contactType": "sales",
-        "areaServed": "AU",
-        "availableLanguage": "en"
-      },
       "sameAs": [
         "https://www.premrest.com.au",
         "https://www.comcorkflooring.com.au",
@@ -159,7 +150,7 @@
           "name": "How do I get a quote for supply and install of carpet tiles or vinyl planks in an aged care facility?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call Premrest on 1300 207 915 or use the enquiry form. We start with a free site assessment: measuring the areas, checking subfloor condition, and confirming the slip ratings and dementia-design requirements for each space. You then receive an itemised supply-and-install quote covering product, subfloor preparation, installation staged around your facility's operations, and the compliance documentation your accreditation audits need. We quote across Melbourne, Sydney, Brisbane and regional Australia."
+            "text": "Use the enquiry form. We start with a free site assessment: measuring the areas, checking subfloor condition, and confirming the slip ratings and dementia-design requirements for each space. You then receive an itemised supply-and-install quote covering product, subfloor preparation, installation staged around your facility's operations, and the compliance documentation your accreditation audits need. We quote across Melbourne, Sydney, Brisbane and regional Australia."
           }
         },
         {
@@ -203,9 +194,6 @@
                 </li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <div class="navbar-contact">
-                <span class="phone">1300 207 915</span>
-            </div>
             <a href="contact.html" class="btn btn-primary">Get a Quote</a>
         </div>
     </nav>
@@ -230,7 +218,6 @@
                 </ul>
                 <div class="hero-ctas">
                     <a href="contact.html" class="btn btn-primary btn-lg">Get a Free Site Assessment &rarr;</a>
-                    <a href="tel:1300207915" class="btn btn-secondary btn-lg">Call 1300 207 915</a>
                 </div>
                 <p class="hero-trust">
                     <strong>Serving:</strong> Melbourne &middot; Sydney &middot; Brisbane &middot; &amp; regional Australia
@@ -515,7 +502,7 @@
             <div class="faq-grid">
                 <div class="faq-item fade-in">
                     <h3>How do I get a quote for supply and install of carpet tiles or vinyl planks?</h3>
-                    <p>Call 1300 207 915 or use the form below. We start with a free site assessment &mdash; measuring the areas, checking subfloor condition, and confirming slip ratings and dementia-design requirements for each space. You get an itemised supply-and-install quote covering product, prep, staged installation and the compliance documentation your audits need.</p>
+                    <p>Use the form below. We start with a free site assessment &mdash; measuring the areas, checking subfloor condition, and confirming slip ratings and dementia-design requirements for each space. You get an itemised supply-and-install quote covering product, prep, staged installation and the compliance documentation your audits need.</p>
                 </div>
                 <div class="faq-item fade-in">
                     <h3>Do you supply and install vinyl planks as well as sheet vinyl?</h3>
@@ -571,6 +558,21 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="state">Which State Are You In?</label>
+                            <select id="state" name="state" required>
+                                <option value="">Select your state</option>
+                                <option value="VIC">Victoria</option>
+                                <option value="NSW">New South Wales</option>
+                                <option value="QLD">Queensland</option>
+                                <option value="ACT">Australian Capital Territory</option>
+                                <option value="SA">South Australia</option>
+                                <option value="WA">Western Australia</option>
+                                <option value="TAS">Tasmania</option>
+                                <option value="NT">Northern Territory</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
                             <label for="enquiry-type">What's This About?</label>
                             <select id="enquiry-type" name="enquiry_type" required>
                                 <option value="">Select an option</option>
@@ -593,15 +595,11 @@
                 </div>
 
                 <div class="contact-info">
-                    <h3>Or Just Call</h3>
+                    <h3>Get in Touch</h3>
                     <div class="contact-details">
                         <div class="contact-detail">
-                            <strong>Phone</strong>
-                            <p><a href="tel:1300207915">1300 207 915</a></p>
-                        </div>
-                        <div class="contact-detail">
-                            <strong>Email</strong>
-                            <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
+                            <strong>Enquiries</strong>
+                            <p>Use the enquiry form &mdash; we respond within one business day.</p>
                         </div>
                         <div class="contact-detail">
                             <strong>Service Areas</strong>
@@ -649,8 +647,7 @@
 
                 <div class="footer-column">
                     <h4>Contact</h4>
-                    <p><a href="tel:1300207915">1300 207 915</a></p>
-                    <p><a href="mailto:office@premrest.com.au">office@premrest.com.au</a></p>
+                    <p><a href="contact.html#contact-form">Contact us via our enquiry form</a></p>
                     <p><a href="https://www.premrest.com.au" target="_blank" rel="noopener noreferrer">premrest.com.au</a></p>
                 </div>
             </div>
@@ -767,10 +764,11 @@
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
+            const state = document.getElementById('state').value;
             const enquiryType = document.getElementById('enquiry-type').value;
             const message = document.getElementById('message').value.trim();
 
-            if (!name || !email || !phone || !enquiryType || !message) {
+            if (!name || !email || !phone || !state || !enquiryType || !message) {
                 alert('Please fill in all required fields.');
                 return;
             }
@@ -795,17 +793,16 @@
                         '<div class="form-thankyou">' +
                         '<h2>Thank You</h2>' +
                         '<p>Your enquiry has been received. We\'ll be in touch within one business day.</p>' +
-                        '<p class="thankyou-phone">Or call us now on <a href="tel:1300207915">1300 207 915</a></p>' +
                         '</div>';
                 } else {
                     submitBtn.disabled = false;
                     submitBtn.textContent = 'Send Enquiry';
-                    alert('Something went wrong. Please try again or call us on 1300 207 915.');
+                    alert('Something went wrong. Please try again.');
                 }
             }).catch(function() {
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Send Enquiry';
-                alert('Something went wrong. Please try again or call us on 1300 207 915.');
+                alert('Something went wrong. Please try again.');
             });
         });
     </script>
