@@ -2,7 +2,7 @@
 
 **Slip-rated, dementia-friendly, and infection-control compliant flooring for nursing homes and retirement villages.**
 
-Premrest is Australia's specialist aged care flooring contractor. We supply and install compliant vinyl and carpet tiles without shutting your facility down — AS 4586 slip-rated, dementia-friendly, seamless for infection control, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
+Premrest is Australia's specialist aged care flooring contractor. We supply and install compliant vinyl and carpet tiles without shutting your facility down. AS 4586 slip-rated, dementia-friendly, seamless for infection control, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
 
 - **Contact:** Enquiry form at https://agedcareflooring.com.au/contact.html
 - **Service areas:** Melbourne, Sydney, Brisbane, and regional Australia
@@ -35,7 +35,7 @@ For wet areas, dining rooms, clinical spaces, and anywhere infection control is 
 
 ## Our six-step process
 
-1. **Start with your problem.** Not a product catalogue — we work out what's actually going wrong before recommending anything.
+1. **Start with your problem.** Not a product catalogue. We work out what's actually going wrong before recommending anything.
 2. **Compliance is built in.** AS 4586, AS 4663, NSQHS, Aged Care Quality Standards. Documentation provided upfront.
 3. **Supply and install.** One contractor, one point of accountability.
 4. **Your facility keeps running.** After-hours installs, wing-by-wing rollouts, staged around your operations.
@@ -48,17 +48,17 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 ## Deep-dive guides
 
-- [Slip Resistance in Aged Care](https://agedcareflooring.com.au/slip-resistance.html) — AS 4586, pendulum testing, P-ratings.
-- [Dementia-Friendly Flooring](https://agedcareflooring.com.au/dementia-friendly-flooring.html) — wayfinding, colour contrast, HB 198:2014.
-- [Articles and insights](https://agedcareflooring.com.au/blog/) — cleaning chemical compatibility, lifecycle costing, and more.
+- [Slip Resistance in Aged Care](https://agedcareflooring.com.au/slip-resistance.html): AS 4586, pendulum testing, P-ratings.
+- [Dementia-Friendly Flooring](https://agedcareflooring.com.au/dementia-friendly-flooring.html): wayfinding, colour contrast, HB 198:2014.
+- [Articles and insights](https://agedcareflooring.com.au/blog/): cleaning chemical compatibility, lifecycle costing, and more.
 
 ## Standards and compliance
 
-- **AS 4586:2013** — Slip resistance classification for pedestrian surfaces.
-- **AS 4663:2013** — In-situ slip testing using the wet pendulum method.
-- **HB 198:2014** — Guide to slip resistance including wayfinding and contrast for vulnerable populations.
-- **NSQHS Standards** — National Safety and Quality Health Service Standards.
-- **Aged Care Quality Standards** — Governing safety, quality of life, and care outcomes.
+- **AS 4586:2013**: Slip resistance classification for pedestrian surfaces.
+- **AS 4663:2013**: In-situ slip testing using the wet pendulum method.
+- **HB 198:2014**: Guide to slip resistance including wayfinding and contrast for vulnerable populations.
+- **NSQHS Standards**: National Safety and Quality Health Service Standards.
+- **Aged Care Quality Standards**: Governing safety, quality of life, and care outcomes.
 
 ## Service locations
 
@@ -68,6 +68,6 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 ## Contact
 
-Start with a free site assessment. No obligation, no pressure — just a conversation about what you actually need.
+Start with a free site assessment. No obligation, no pressure, just a conversation about what you actually need.
 
 - **Contact form:** https://agedcareflooring.com.au/contact.html
