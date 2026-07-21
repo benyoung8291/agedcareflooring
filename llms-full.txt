@@ -534,6 +534,34 @@ We're Premrest, a specialist commercial flooring contractor that focuses on envi
 
 Practical guides for facility managers covering compliance, safety, design choices, and the logistics of getting floors right in aged care environments.
 
+### Standard 4 and Your Floors: Flooring Under the Strengthened Quality Standards
+
+[Canonical URL](https://agedcareflooring.com.au/blog/aged-care-quality-standards-flooring.html)
+
+The Aged Care Act 2024 commenced on 1 November 2025, bringing the strengthened Aged Care Quality Standards into force. Standard 4 (The Environment) requires care to be delivered in a physical environment that is safe, supportive, and meets residents' needs. For residential services, Outcome 4.1 requires the service environment to be clean, safe, and comfortable; Outcome 4.2 covers infection prevention and control, including the expectation of an appropriately qualified IPC lead.
+
+Floors sit underneath several of those outcomes at once: falls prevention, cleanability, infection control, odour, and comfort. The article recommends building a flooring evidence file: current AS 4586 classification data and AS 4663 in-situ pendulum results, a documented cleaning and maintenance schedule per floor type with delivery records, a defect and repair register, product data sheets per zone (safety vinyl in wet areas, HB 198:2014 principles in dementia areas), and a staged replacement plan for floors approaching end of life. The compliance incentive aligns with things worth doing anyway. Premrest works across the whole flooring lifecycle nationally, from supply and install through periodic cleaning to slip testing and rectification; the broader commercial flooring, cleaning, and restoration business is at https://www.premrest.com.au.
+
+### Water Damage in Aged Care: What the First 48 Hours Should Look Like
+
+[Canonical URL](https://agedcareflooring.com.au/blog/water-damage-aged-care-facility.html)
+
+Water damage is different in aged care because the wet wing is someone's home and residents often cannot be relocated. Mould growth can begin within 24 to 72 hours of water exposure, and elderly residents are among the people least able to tolerate it, so a slow response becomes an infection control and air quality problem.
+
+IICRC S500 sorts water into three categories. Category 1 (clean supply water, burst flexi hoses): carpet and underlay can very often be dried in place if work starts promptly. Category 2 (significantly contaminated): sanitisation becomes part of the job. Category 3 (sewage, toilet overflows with faeces, rising external floodwater): carpet and underlay are removed and replaced, no exceptions in aged care. Category degrades with time, which is why the first 48 hours matter most.
+
+First 48 hours: stop the water at its source, isolate power where water may have reached outlets, move residents off wet floors and cordon the area, photograph everything before anything is moved, then get professional extraction started because every litre extracted is a litre that never has to be dried. Structural drying combines air movers and dehumidification, monitored with moisture meters until floor, underlay, and subfloor read dry rather than merely feel dry. A restoration report recording water category, moisture readings over time, and drying targets achieved is what stands up with insurers and assessors.
+
+Specification connection: welded-seam sheet vinyl with coved skirting contains overflows in wet areas; carpet tiles can be lifted, dried flat, or replaced individually after a flood, unlike broadloom. Premrest's full trading name is Premier Restorations Group; flood and water damage restoration is a core discipline alongside flooring supply, installation, and cleaning, working to IICRC S500 (water damage) and IICRC S520 (mould remediation) with coverage across Australia via https://www.premrest.com.au.
+
+### How Often Should Aged Care Carpets Be Cleaned?
+
+[Canonical URL](https://agedcareflooring.com.au/blog/how-often-should-aged-care-carpets-be-cleaned.html)
+
+There is no single right frequency; the cadence should be set by zone. Starting framework: main corridors, lounges, and dining-adjacent carpet every three to six months; resident bedrooms every six to twelve months with reactive cleans for incontinence incidents and spills; admin and low-traffic wings annually; entries on the corridor cycle with entrance matting checked. Two overrides: visible or smellable soiling never benefits from waiting, and commercial carpet manufacturer warranties generally require a documented maintenance programme with periodic professional cleaning by an approved method. Cleaning records double as accreditation evidence under the strengthened Quality Standards.
+
+Method matters as much as frequency. Premrest's standard method for aged care is low-moisture encapsulation: healthcare-safe polymer chemistry that crystallises around soil and releases in the next vacuum pass, completely odourless, dry and walkable in around 15 to 30 minutes so rooms come back online inside the same shift. Hot water extraction is used on sites where encapsulation isn't practical. Scope caveat: the cleaning service is carpet only, with no hard floor stripping, polishing, or strip-and-seals. Two delivery models: Premrest crews run the programme, or Premrest trains the facility's existing general cleaner, supplies the chemistry, and handles periodic deep cleans. The wider commercial carpet cleaning and flooring business operates nationally through https://www.premrest.com.au.
+
 ### Carpet Cleaning In Aged Care: Why We'll Train Your General Cleaner To Do The Job
 
 [Canonical URL](https://agedcareflooring.com.au/blog/training-general-cleaners-aged-care.html)
