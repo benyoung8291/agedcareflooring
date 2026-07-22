@@ -25,17 +25,17 @@ Key credentials:
 - AS 4586 slip-rated (P4-P5 wet pendulum)
 - Dementia-friendly (HB 198:2014)
 - Infection-control ready
-- Zero resident relocation required
+- Installations staged around live operations
 
-### The problem we solve
+### Why aged care is different
 
-A regular commercial flooring contractor will give you a nice floor. It'll look good in the photos. And then someone will fall on it, or the cleaner's mop will turn it into a skating rink, or a resident with dementia will refuse to walk across the dark strip because it looks like a hole in the ground.
+Most flooring problems in aged care show up twelve months after installation, not on day one: vinyl that met its slip rating at handover fails a pendulum test after a year of alkaline mopping, or a resident with dementia stops at a dark threshold strip because it reads as a step down.
 
-Aged care flooring has to do about six jobs at once. It needs to meet AS 4586 slip resistance requirements, not just on paper, but after six months of industrial mopping. It needs to support infection control with seamless, easy-to-clean surfaces. It needs to follow dementia-friendly design principles so residents feel safe navigating the space. And it needs to handle wheelchairs, walkers, and trolleys without falling apart.
+An aged care floor has several jobs to do at once. It has to hold its AS 4586 slip rating under a real cleaning regime, not just in the product data sheet. It has to support infection control with seamless, coved, cleanable surfaces. It has to follow dementia-friendly design guidance so residents can navigate confidently. And it has to stand up to wheelchairs, walkers and meal trolleys every day for a decade.
 
-Most flooring companies treat aged care like any other commercial job. We don't, because it isn't. The compliance requirements alone (AS 4586:2013, AS 4663:2013, NSQHS Standards, Aged Care Quality Standards) would make your head spin. We know them backwards because this is what we do.
+Getting that right means specifying against AS 4586:2013, AS 4663:2013, the NSQHS Standards and the Aged Care Quality Standards on every project — and handing over the test reports and certifications accreditation audits ask for.
 
-The other bit that matters: your facility can't just shut down while the floor gets done. Residents live there. Staff work there. We stage installations around your operations, work after hours when needed, and coordinate with your team so nobody's getting displaced into a corridor.
+It also means planning around the reality that residents live in the building while the work happens. We stage installations wing by wing, work after hours where it helps, and agree the sequence with the care team before work begins.
 
 ### What we install
 
@@ -72,7 +72,7 @@ What flooring is best for aged care facilities? The best aged care flooring depe
 
 What slip resistance standards apply to aged care flooring in Australia? Australian aged care flooring must comply with AS 4586:2013 for slip resistance classification and AS 4663:2013 for in-situ pendulum testing. Floors are rated using P-ratings (wet pendulum) and R-ratings (ramp test). Most aged care areas require P3-P5 ratings. These standards must be maintained over time, not just at installation.
 
-Can aged care flooring be replaced without relocating residents? Yes. Specialist aged care flooring contractors like Premrest stage installations around facility operations. This includes after-hours and weekend work, wing-by-wing rollouts, advance subfloor preparation, and coordination with care teams.
+Can aged care flooring be replaced without relocating residents? In most cases, yes. Specialist aged care flooring contractors like Premrest stage installations around facility operations: after-hours and weekend work, wing-by-wing rollouts, advance subfloor preparation, and coordination with care teams. Where a zone does need to be cleared during works, it is planned with the care team in advance so any move is short and happens once.
 
 What is dementia-friendly flooring? Dementia-friendly flooring follows design principles from HB 198:2014 and dementia care research. It uses calm, matte colours with appropriate contrast for wayfinding, avoids bold patterns or dark strips that residents may perceive as holes or obstacles, and maintains consistent tones to reduce anxiety and confusion.
 
