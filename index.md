@@ -13,15 +13,15 @@ Premrest is Australia's specialist aged care flooring contractor. We supply and 
 - AS 4586 slip-rated (P4–P5 wet pendulum)
 - Dementia-friendly (HB 198:2014)
 - Infection-control ready
-- Zero resident relocation required
+- Installations staged around live operations
 
-## The problem we solve
+## Why aged care is different
 
-A generic commercial flooring contractor will give you a nice floor. It'll look good in the photos. And then someone will fall on it, the cleaner's mop will turn it into a skating rink, or a resident with dementia will refuse to walk across the dark strip because it looks like a hole in the ground.
+Most flooring problems in aged care show up twelve months after installation, not on day one: vinyl that met its slip rating at handover fails a pendulum test after a year of alkaline mopping, or a resident with dementia stops at a dark threshold strip because it reads as a step down.
 
-Aged care flooring has to do about six jobs at once: meet AS 4586 slip resistance after months of industrial mopping, support infection control with seamless surfaces, follow dementia-friendly design principles, and handle wheelchairs, walkers, and trolleys.
+Aged care flooring has several jobs to do at once: hold its AS 4586 slip rating under a real cleaning regime, support infection control with seamless surfaces, follow dementia-friendly design principles, and handle wheelchairs, walkers, and trolleys.
 
-Most flooring companies treat aged care like any other commercial job. We don't, because it isn't.
+We specify against AS 4586:2013, AS 4663:2013, the NSQHS Standards and the Aged Care Quality Standards on every project, and hand over the documentation with the job.
 
 ## What we install
 
@@ -68,6 +68,6 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 ## Contact
 
-Start with a free site assessment. No obligation, no pressure, just a conversation about what you actually need.
+Start with a free site assessment. Describe the situation and we'll come back with practical options.
 
 - **Contact form:** https://agedcareflooring.com.au/contact.html

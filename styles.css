@@ -1421,6 +1421,17 @@ textarea:focus-visible {
   color: #2C2D30;
 }
 
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
@@ -2513,6 +2524,10 @@ textarea:focus-visible {
 
   .logo-text {
     font-size: 20px;
+  }
+
+  .logo-img {
+    height: 22px;
   }
 
   .solution-card .card-content {
