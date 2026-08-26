@@ -67,6 +67,19 @@
       ]
     },
     {
+      "source": "/blog/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </privacy-policy.html>; rel=\"privacy-policy\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
       "source": "/(.*)\\.md",
       "headers": [
         {
@@ -148,7 +161,12 @@
           "value": "(.*)text/markdown(.*)"
         }
       ],
-      "dest": "/index.md"
+      "dest": "/index.md",
+      "headers": {
+        "Content-Type": "text/markdown; charset=utf-8",
+        "Vary": "Accept",
+        "Link": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </index.md>; rel=\"alternate\"; type=\"text/markdown\"; title=\"Markdown version for agents\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </contact.html>; rel=\"author\"; title=\"Contact Premrest Aged Care Flooring\", </privacy-policy.html>; rel=\"privacy-policy\", </robots.txt>; rel=\"describedby\"; type=\"text/plain\""
+      }
     },
     {
       "src": "^/index\\.html$",
@@ -159,7 +177,12 @@
           "value": "(.*)text/markdown(.*)"
         }
       ],
-      "dest": "/index.md"
+      "dest": "/index.md",
+      "headers": {
+        "Content-Type": "text/markdown; charset=utf-8",
+        "Vary": "Accept",
+        "Link": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </index.md>; rel=\"alternate\"; type=\"text/markdown\"; title=\"Markdown version for agents\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </contact.html>; rel=\"author\"; title=\"Contact Premrest Aged Care Flooring\", </privacy-policy.html>; rel=\"privacy-policy\", </robots.txt>; rel=\"describedby\"; type=\"text/plain\""
+      }
     }
   ]
 }
