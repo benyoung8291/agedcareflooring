@@ -1,8 +1,8 @@
 # Aged Care Flooring Australia
 
-**Slip-rated, dementia-friendly, and infection-control compliant flooring for nursing homes and retirement villages.**
+**Specialist aged care flooring contractor. Carpet tiles and vinyl for nursing homes and retirement villages.**
 
-Premrest is Australia's specialist aged care flooring contractor. We supply and install compliant vinyl and carpet tiles without shutting your facility down. AS 4586 slip-rated, dementia-friendly, seamless for infection control, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
+Premrest supplies and installs aged care flooring in nursing homes and retirement villages without shutting the facility down. Carpet tiles and vinyl, specified to AS 4586, set out to dementia-friendly guidance (HB 198), infection-control ready, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
 
 - **Contact:** 1300 207 915 or the enquiry form at https://www.agedcareflooring.com.au/contact.html
 - **Service areas:** Melbourne, Sydney, Brisbane, and regional Australia
