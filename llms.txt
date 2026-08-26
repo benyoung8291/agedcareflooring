@@ -4,43 +4,43 @@
 
 This file is a concise index for language models. Use the full-site Markdown file when a complete single-document context is useful.
 
-Contact: enquiry form at https://agedcareflooring.com.au/contact.html
+Contact: 1300 207 915 or the enquiry form at https://www.agedcareflooring.com.au/contact.html
 Service areas: Melbourne, Sydney, Brisbane, and regional Australia.
 
 ## Required
 
-- [Full site Markdown](https://agedcareflooring.com.au/llms-full.txt): Expanded Markdown context covering every public page on the site.
+- [Full site Markdown](https://www.agedcareflooring.com.au/llms-full.txt): Expanded Markdown context covering every public page on the site.
 
 ## Core Pages
 
-- [Aged Care Flooring Australia](https://agedcareflooring.com.au/): Home page. Specialist aged care flooring that passes every slip test, dementia audit, and infection-control check. Supply and install across Melbourne, Sydney, and Brisbane.
-- [Carpet Tiles for Aged Care](https://agedcareflooring.com.au/carpet-tiles.html): Interface and Shaw Contract carpet tiles purpose-built for aged care environments. Noise-dampening, dementia-friendly palettes, tile-level replacement.
-- [Vinyl Planks & Safety Vinyl Flooring for Aged Care](https://agedcareflooring.com.au/vinyl-flooring.html): Supply and install of luxury vinyl planks (Karndean, Armstrong, Tarkett) for bedrooms, lounges, and corridors, plus seamless Polyflor, Forbo, and Tarkett safety sheet vinyl for wet areas, dining rooms, and clinical spaces. AS 4586 slip-rated.
-- [Low-Moisture Encap Carpet Cleaning For Aged Care](https://agedcareflooring.com.au/cleaning-maintenance.html): Specialist low-moisture encapsulation (encap) carpet cleaning for aged care. Completely odourless, healthcare-safe polymer chemistry. Carpets dry in 15–30 minutes. Two service models: train your existing general cleaner on the encap method and supply the chemistry, or have Premrest crews run the full programme. Carpet only — no hard floor stripping, polishing, or strip-and-seals. Recommended by Interface and Shaw Contract.
-- [Slip Resistance Testing & Compliance](https://agedcareflooring.com.au/slip-resistance.html): AS 4586:2013 classification, AS 4663:2013 in-situ pendulum testing, P-ratings explained, and rectification of failing floors.
-- [Dementia-Friendly Flooring Design](https://agedcareflooring.com.au/dementia-friendly-flooring.html): Wayfinding, colour contrast, pattern selection, and HB 198:2014 design principles for dementia care environments.
-- [Articles & Insights (Blog)](https://agedcareflooring.com.au/blog/): Practical guides for facility managers covering compliance, safety, design, and installation logistics.
-- [Get a Quote](https://agedcareflooring.com.au/contact.html): Free site assessments and itemised supply-and-install quotes for carpet tiles and vinyl planks. Enquiries via the on-page contact form.
+- [Aged Care Flooring Australia](https://www.agedcareflooring.com.au/): Home page. Specialist aged care flooring that passes every slip test, dementia audit, and infection-control check. Supply and install across Melbourne, Sydney, and Brisbane.
+- [Carpet Tiles for Aged Care](https://www.agedcareflooring.com.au/carpet-tiles.html): Interface and Shaw Contract carpet tiles purpose-built for aged care environments. Noise-dampening, dementia-friendly palettes, tile-level replacement.
+- [Vinyl Planks & Safety Vinyl Flooring for Aged Care](https://www.agedcareflooring.com.au/vinyl-flooring.html): Supply and install of luxury vinyl planks (Karndean, Armstrong, Tarkett) for bedrooms, lounges, and corridors, plus seamless Polyflor, Forbo, and Tarkett safety sheet vinyl for wet areas, dining rooms, and clinical spaces. AS 4586 slip-rated.
+- [Low-Moisture Encap Carpet Cleaning For Aged Care](https://www.agedcareflooring.com.au/cleaning-maintenance.html): Specialist low-moisture encapsulation (encap) carpet cleaning for aged care. Completely odourless, healthcare-safe polymer chemistry. Carpets dry in 15–30 minutes. Two service models: train your existing general cleaner on the encap method and supply the chemistry, or have Premrest crews run the full programme. Carpet only — no hard floor stripping, polishing, or strip-and-seals. Recommended by Interface and Shaw Contract.
+- [Slip Resistance Testing & Compliance](https://www.agedcareflooring.com.au/slip-resistance.html): AS 4586:2013 classification, AS 4663:2013 in-situ pendulum testing, P-ratings explained, and rectification of failing floors.
+- [Dementia-Friendly Flooring Design](https://www.agedcareflooring.com.au/dementia-friendly-flooring.html): Wayfinding, colour contrast, pattern selection, and HB 198:2014 design principles for dementia care environments.
+- [Articles & Insights (Blog)](https://www.agedcareflooring.com.au/blog/): Practical guides for facility managers covering compliance, safety, design, and installation logistics.
+- [Get a Quote](https://www.agedcareflooring.com.au/contact.html): Free site assessments and itemised supply-and-install quotes for carpet tiles and vinyl planks. Enquiries via the on-page contact form.
 
 ## Service Locations
 
-- [Aged Care Flooring Melbourne](https://agedcareflooring.com.au/melbourne.html): Local Melbourne installation team servicing nursing homes and retirement villages across Victoria.
-- [Aged Care Flooring Sydney](https://agedcareflooring.com.au/sydney.html): Local Sydney installation team servicing aged care facilities across New South Wales.
-- [Aged Care Flooring Brisbane](https://agedcareflooring.com.au/brisbane.html): Local Brisbane installation team servicing aged care facilities across South-East Queensland.
+- [Aged Care Flooring Melbourne](https://www.agedcareflooring.com.au/melbourne.html): Local Melbourne installation team servicing nursing homes and retirement villages across Victoria.
+- [Aged Care Flooring Sydney](https://www.agedcareflooring.com.au/sydney.html): Local Sydney installation team servicing aged care facilities across New South Wales.
+- [Aged Care Flooring Brisbane](https://www.agedcareflooring.com.au/brisbane.html): Local Brisbane installation team servicing aged care facilities across South-East Queensland.
 
 ## Articles
 
-- [Standard 4 and Your Floors: Flooring Under the Strengthened Quality Standards](https://agedcareflooring.com.au/blog/aged-care-quality-standards-flooring.html): What Standard 4 (The Environment) of the strengthened Aged Care Quality Standards, in force since 1 November 2025 under the Aged Care Act 2024, means for flooring, and the evidence file assessors expect.
-- [Water Damage in Aged Care: What the First 48 Hours Should Look Like](https://agedcareflooring.com.au/blog/water-damage-aged-care-facility.html): How aged care facilities should respond to burst pipes, bathroom overflows and floods. IICRC S500 water categories, drying versus replacement, and protecting residents through the process.
-- [How Often Should Aged Care Carpets Be Cleaned?](https://agedcareflooring.com.au/blog/how-often-should-aged-care-carpets-be-cleaned.html): Cleaning cadences by zone, what carpet manufacturer warranties expect, and why odourless low-moisture encapsulation that dries in 15 to 30 minutes suits aged care.
-- [Carpet Cleaning In Aged Care: Why We'll Train Your General Cleaner](https://agedcareflooring.com.au/blog/training-general-cleaners-aged-care.html): The two service models Premrest runs on aged care sites and why the partnership model that earns less per facility is often the right call.
-- [Commercial Cork Flooring in Aged Care: The Underrated Spec](https://agedcareflooring.com.au/blog/cork-flooring-aged-care.html): Why modern commercial cork is quietly one of the best flooring specs for aged care bedrooms, lounges, and dementia areas — acoustic, antimicrobial, fall-cushioning, and durable when properly specified.
-- [Why Aged Care Floors Develop That Smell (And How to Stop It)](https://agedcareflooring.com.au/blog/aged-care-floor-odour-incontinence.html): Where urine odour hides in nursing home floors, why daily mopping makes it worse, and the flooring specification that fixes it for good.
-- [Why Your Floor Cleaner Is Making Your Floor Dangerous](https://agedcareflooring.com.au/blog/cleaning-chemicals-slip-resistance.html): How common cleaning products affect slip ratings over time, what AS 4586 and AS 4663 actually measure, and which chemicals preserve compliance.
-- [Carpet Tiles vs Vinyl in Aged Care: Where to Use What](https://agedcareflooring.com.au/blog/carpet-tiles-vs-vinyl-aged-care.html): Practical breakdown of which areas suit carpet tiles and which need safety vinyl, with cost-benefit and maintenance implications.
-- [What Auditors Actually Look For in Your Flooring](https://agedcareflooring.com.au/blog/flooring-accreditation-audit.html): Aged care accreditation audits demystified. Documentation requirements, common findings, and how to prepare before assessors arrive.
-- [Flooring That Works With Wheelchairs (Not Against Them)](https://agedcareflooring.com.au/blog/wheelchair-friendly-flooring.html): How surface texture, height transitions, and traction affect wheelchair and walker users, with design details that improve mobility and safety.
-- [How to Replace Aged Care Flooring Without Moving Everyone Out](https://agedcareflooring.com.au/blog/replacing-aged-care-flooring-without-relocating-residents.html): Logistics of staged installation in operating facilities — after-hours work, wing-by-wing rollouts, and coordination with care teams.
+- [Standard 4 and Your Floors: Flooring Under the Strengthened Quality Standards](https://www.agedcareflooring.com.au/blog/aged-care-quality-standards-flooring.html): What Standard 4 (The Environment) of the strengthened Aged Care Quality Standards, in force since 1 November 2025 under the Aged Care Act 2024, means for flooring, and the evidence file assessors expect.
+- [Water Damage in Aged Care: What the First 48 Hours Should Look Like](https://www.agedcareflooring.com.au/blog/water-damage-aged-care-facility.html): How aged care facilities should respond to burst pipes, bathroom overflows and floods. IICRC S500 water categories, drying versus replacement, and protecting residents through the process.
+- [How Often Should Aged Care Carpets Be Cleaned?](https://www.agedcareflooring.com.au/blog/how-often-should-aged-care-carpets-be-cleaned.html): Cleaning cadences by zone, what carpet manufacturer warranties expect, and why odourless low-moisture encapsulation that dries in 15 to 30 minutes suits aged care.
+- [Carpet Cleaning In Aged Care: Why We'll Train Your General Cleaner](https://www.agedcareflooring.com.au/blog/training-general-cleaners-aged-care.html): The two service models Premrest runs on aged care sites and why the partnership model that earns less per facility is often the right call.
+- [Commercial Cork Flooring in Aged Care: The Underrated Spec](https://www.agedcareflooring.com.au/blog/cork-flooring-aged-care.html): Why modern commercial cork is quietly one of the best flooring specs for aged care bedrooms, lounges, and dementia areas — acoustic, antimicrobial, fall-cushioning, and durable when properly specified.
+- [Why Aged Care Floors Develop That Smell (And How to Stop It)](https://www.agedcareflooring.com.au/blog/aged-care-floor-odour-incontinence.html): Where urine odour hides in nursing home floors, why daily mopping makes it worse, and the flooring specification that fixes it for good.
+- [Why Your Floor Cleaner Is Making Your Floor Dangerous](https://www.agedcareflooring.com.au/blog/cleaning-chemicals-slip-resistance.html): How common cleaning products affect slip ratings over time, what AS 4586 and AS 4663 actually measure, and which chemicals preserve compliance.
+- [Carpet Tiles vs Vinyl in Aged Care: Where to Use What](https://www.agedcareflooring.com.au/blog/carpet-tiles-vs-vinyl-aged-care.html): Practical breakdown of which areas suit carpet tiles and which need safety vinyl, with cost-benefit and maintenance implications.
+- [What Auditors Actually Look For in Your Flooring](https://www.agedcareflooring.com.au/blog/flooring-accreditation-audit.html): Aged care accreditation audits demystified. Documentation requirements, common findings, and how to prepare before assessors arrive.
+- [Flooring That Works With Wheelchairs (Not Against Them)](https://www.agedcareflooring.com.au/blog/wheelchair-friendly-flooring.html): How surface texture, height transitions, and traction affect wheelchair and walker users, with design details that improve mobility and safety.
+- [How to Replace Aged Care Flooring Without Moving Everyone Out](https://www.agedcareflooring.com.au/blog/replacing-aged-care-flooring-without-relocating-residents.html): Logistics of staged installation in operating facilities — after-hours work, wing-by-wing rollouts, and coordination with care teams.
 
 ## Standards & Compliance
 
@@ -57,7 +57,7 @@ Interface, Shaw Contract, Polyflor, Forbo, Armstrong, Karndean, Tarkett.
 
 ## Optional
 
-- [Privacy Policy](https://agedcareflooring.com.au/privacy-policy.html): Privacy policy for the Premrest Aged Care Flooring website.
-- [Sitemap (XML)](https://agedcareflooring.com.au/sitemap.xml): Machine-readable sitemap of all public pages.
-- [Robots.txt](https://agedcareflooring.com.au/robots.txt): Crawler policy and content signals.
+- [Privacy Policy](https://www.agedcareflooring.com.au/privacy-policy.html): Privacy policy for the Premrest Aged Care Flooring website.
+- [Sitemap (XML)](https://www.agedcareflooring.com.au/sitemap.xml): Machine-readable sitemap of all public pages.
+- [Robots.txt](https://www.agedcareflooring.com.au/robots.txt): Crawler policy and content signals.
 - [Premrest (parent business)](https://www.premrest.com.au): Premrest commercial flooring — the parent specialist contractor.
