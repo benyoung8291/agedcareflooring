@@ -1,0 +1,165 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </index.md>; rel=\"alternate\"; type=\"text/markdown\"; title=\"Markdown version for agents\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </contact.html>; rel=\"author\"; title=\"Contact Premrest Aged Care Flooring\", </privacy-policy.html>; rel=\"privacy-policy\", </robots.txt>; rel=\"describedby\"; type=\"text/plain\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </index.md>; rel=\"alternate\"; type=\"text/markdown\"; title=\"Markdown version for agents\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </contact.html>; rel=\"author\"; title=\"Contact Premrest Aged Care Flooring\", </privacy-policy.html>; rel=\"privacy-policy\", </robots.txt>; rel=\"describedby\"; type=\"text/plain\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/((?!index\\.html$).*)\\.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </privacy-policy.html>; rel=\"privacy-policy\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/:page([^/.]+)",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </privacy-policy.html>; rel=\"privacy-policy\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/blog/:page([^/.]+)",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLMs.txt index for AI agents\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full-site Markdown context for AI agents\", </privacy-policy.html>; rel=\"privacy-policy\""
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/index.md"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/index.md"
+    },
+    {
+      "source": "/:page([^/.]+)",
+      "destination": "/:page.html"
+    },
+    {
+      "source": "/blog/:page([^/.]+)",
+      "destination": "/blog/:page.html"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/$",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "dest": "/index.md"
+    },
+    {
+      "src": "^/index\\.html$",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "dest": "/index.md"
+    }
+  ]
+}
