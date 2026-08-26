@@ -19,4 +19,4 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-Sitemap: https://agedcareflooring.com.au/sitemap.xml
+Sitemap: https://www.agedcareflooring.com.au/sitemap.xml

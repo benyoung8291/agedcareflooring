@@ -4,9 +4,9 @@
 
 Premrest is Australia's specialist aged care flooring contractor. We supply and install compliant vinyl and carpet tiles without shutting your facility down. AS 4586 slip-rated, dementia-friendly, seamless for infection control, and delivered by specialist teams in Melbourne, Sydney, and Brisbane.
 
-- **Contact:** Enquiry form at https://agedcareflooring.com.au/contact.html
+- **Contact:** 1300 207 915 or the enquiry form at https://www.agedcareflooring.com.au/contact.html
 - **Service areas:** Melbourne, Sydney, Brisbane, and regional Australia
-- **Website:** https://agedcareflooring.com.au/
+- **Website:** https://www.agedcareflooring.com.au/
 
 ## Key credentials
 
@@ -27,11 +27,11 @@ We specify against AS 4586:2013, AS 4663:2013, the NSQHS Standards and the Aged 
 
 ### Carpet tiles
 
-Interface and Shaw Contract make carpet tiles purpose-built for aged care: noise dampening, dementia-friendly palettes, and tile-level replacement when one gets stained or worn. See [carpet tiles](https://agedcareflooring.com.au/carpet-tiles.html).
+Interface and Shaw Contract make carpet tiles purpose-built for aged care: noise dampening, dementia-friendly palettes, and tile-level replacement when one gets stained or worn. See [carpet tiles](https://www.agedcareflooring.com.au/carpet-tiles.html).
 
 ### Safety vinyl
 
-For wet areas, dining rooms, clinical spaces, and anywhere infection control is critical. We work with Polyflor, Forbo, Armstrong, Karndean, and Tarkett healthcare ranges. Seamless installations, all AS 4586 slip-rated. See [vinyl flooring](https://agedcareflooring.com.au/vinyl-flooring.html).
+For wet areas, dining rooms, clinical spaces, and anywhere infection control is critical. We work with Polyflor, Forbo, Armstrong, Karndean, and Tarkett healthcare ranges. Seamless installations, all AS 4586 slip-rated. See [vinyl flooring](https://www.agedcareflooring.com.au/vinyl-flooring.html).
 
 ## Our six-step process
 
@@ -48,9 +48,9 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 ## Deep-dive guides
 
-- [Slip Resistance in Aged Care](https://agedcareflooring.com.au/slip-resistance.html): AS 4586, pendulum testing, P-ratings.
-- [Dementia-Friendly Flooring](https://agedcareflooring.com.au/dementia-friendly-flooring.html): wayfinding, colour contrast, HB 198:2014.
-- [Articles and insights](https://agedcareflooring.com.au/blog/): cleaning chemical compatibility, lifecycle costing, and more.
+- [Slip Resistance in Aged Care](https://www.agedcareflooring.com.au/slip-resistance.html): AS 4586, pendulum testing, P-ratings.
+- [Dementia-Friendly Flooring](https://www.agedcareflooring.com.au/dementia-friendly-flooring.html): wayfinding, colour contrast, HB 198:2014.
+- [Articles and insights](https://www.agedcareflooring.com.au/blog/): cleaning chemical compatibility, lifecycle costing, and more.
 
 ## Standards and compliance
 
@@ -62,12 +62,12 @@ Interface · Shaw Contract · Polyflor · Forbo · Armstrong · Karndean · Tark
 
 ## Service locations
 
-- [Melbourne](https://agedcareflooring.com.au/melbourne.html)
-- [Sydney](https://agedcareflooring.com.au/sydney.html)
-- [Brisbane](https://agedcareflooring.com.au/brisbane.html)
+- [Melbourne](https://www.agedcareflooring.com.au/melbourne.html)
+- [Sydney](https://www.agedcareflooring.com.au/sydney.html)
+- [Brisbane](https://www.agedcareflooring.com.au/brisbane.html)
 
 ## Contact
 
 Start with a free site assessment. Describe the situation and we'll come back with practical options.
 
-- **Contact form:** https://agedcareflooring.com.au/contact.html
+- **Contact form:** https://www.agedcareflooring.com.au/contact.html
